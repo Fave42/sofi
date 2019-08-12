@@ -1,0 +1,70 @@
+NULL NULL NULL NULL party_size_number NULL NULL NULL restaurant_type NULL city city
+NULL NULL NULL party_size_number NULL restaurant_name restaurant_name restaurant_name NULL country country country
+NULL NULL NULL NULL NULL timeRange NULL state NULL NULL restaurant_type
+NULL NULL NULL NULL NULL party_size_description party_size_description party_size_description party_size_description NULL timeRange timeRange NULL city
+NULL NULL NULL NULL NULL sort sort restaurant_type timeRange timeRange timeRange timeRange NULL
+NULL NULL NULL NULL NULL party_size_number NULL city state
+NULL NULL NULL party_size_number NULL NULL restaurant_type NULL NULL cuisine
+NULL NULL NULL NULL NULL party_size_description party_size_description party_size_description party_size_description NULL restaurant_name restaurant_name restaurant_name
+NULL NULL NULL NULL restaurant_name restaurant_name restaurant_name NULL country NULL timeRange timeRange timeRange timeRange NULL
+NULL NULL NULL NULL NULL restaurant_type NULL served_dish
+NULL NULL NULL NULL party_size_number NULL NULL state state
+NULL NULL NULL NULL NULL party_size_number NULL NULL sort restaurant_type timeRange timeRange timeRange timeRange NULL city
+NULL NULL NULL NULL NULL restaurant_type NULL state timeRange timeRange timeRange
+NULL NULL NULL NULL NULL NULL NULL party_size_number NULL NULL restaurant_name restaurant_name NULL NULL NULL NULL state
+NULL NULL NULL party_size_number NULL state city
+NULL NULL restaurant_type NULL country
+NULL NULL NULL NULL NULL city NULL party_size_number NULL NULL NULL restaurant_type
+NULL NULL NULL NULL NULL spatial_relation restaurant_type NULL timeRange NULL city
+NULL NULL NULL NULL NULL restaurant_type NULL NULL spatial_relation state facility NULL party_size_description party_size_description party_size_description party_size_description NULL
+NULL NULL NULL NULL state NULL party_size_number NULL
+NULL NULL NULL NULL NULL restaurant_type NULL city NULL party_size_number NULL
+NULL NULL NULL NULL sort sort restaurant_type NULL country
+NULL NULL NULL NULL timeRange NULL state NULL party_size_number
+NULL NULL NULL NULL restaurant_name restaurant_name restaurant_name NULL timeRange timeRange timeRange
+NULL NULL NULL NULL party_size_description party_size_description party_size_description party_size_description NULL country country
+NULL NULL NULL NULL party_size_number NULL NULL restaurant_type timeRange
+NULL NULL NULL city NULL NULL sort restaurant_type NULL state
+NULL NULL NULL restaurant_name restaurant_name restaurant_name NULL country
+NULL NULL NULL NULL NULL facility restaurant_type
+NULL NULL restaurant_type NULL state NULL timeRange timeRange NULL city city NULL NULL served_dish NULL party_size_description party_size_description party_size_description party_size_description
+NULL NULL NULL party_size_number NULL country
+NULL NULL NULL restaurant_name restaurant_name restaurant_name restaurant_name NULL country NULL timeRange timeRange timeRange
+NULL NULL NULL NULL NULL NULL NULL party_size_number NULL NULL served_dish restaurant_type NULL city
+NULL NULL NULL NULL restaurant_name restaurant_name NULL party_size_description party_size_description party_size_description party_size_description NULL state NULL
+NULL NULL party_size_number timeRange timeRange NULL country
+NULL NULL NULL NULL NULL city state
+NULL NULL NULL party_size_number NULL restaurant_type NULL NULL served_dish
+NULL NULL NULL NULL NULL NULL city
+NULL NULL NULL NULL restaurant_name restaurant_name restaurant_name NULL timeRange NULL party_size_description party_size_description party_size_description party_size_description party_size_description
+NULL NULL NULL NULL party_size_number NULL restaurant_name restaurant_name NULL country
+NULL NULL NULL party_size_description party_size_description party_size_description party_size_description party_size_description NULL city state
+NULL NULL NULL NULL party_size_number NULL NULL NULL cuisine restaurant_type
+NULL NULL NULL NULL NULL NULL NULL NULL party_size_number NULL NULL restaurant_type NULL state
+NULL NULL NULL city city state timeRange timeRange timeRange
+NULL NULL NULL NULL NULL sort sort restaurant_type restaurant_type restaurant_type NULL party_size_number NULL
+NULL NULL NULL NULL NULL NULL NULL party_size_number NULL NULL restaurant_type NULL NULL served_dish
+NULL NULL NULL NULL party_size_number NULL NULL NULL sort restaurant_type NULL city NULL state NULL timeRange timeRange timeRange
+NULL NULL NULL NULL restaurant_name restaurant_name NULL city NULL
+NULL restaurant_type NULL party_size_number NULL NULL facility
+NULL NULL NULL NULL party_size_number NULL NULL NULL sort sort restaurant_type timeRange timeRange NULL state
+NULL NULL NULL NULL NULL restaurant_type NULL party_size_description party_size_description party_size_description party_size_description party_size_description NULL state NULL
+NULL NULL NULL timeRange NULL restaurant_name NULL NULL NULL NULL party_size_number
+NULL NULL NULL city city NULL timeRange timeRange NULL party_size_number NULL
+NULL NULL NULL NULL NULL restaurant_type NULL state state NULL party_size_description party_size_description party_size_description party_size_description NULL
+NULL NULL NULL NULL restaurant_name restaurant_name restaurant_name NULL party_size_description party_size_description party_size_description party_size_description NULL
+NULL NULL NULL NULL NULL restaurant_type NULL city state NULL
+NULL NULL NULL timeRange timeRange timeRange timeRange NULL NULL restaurant_type NULL served_dish
+NULL NULL NULL NULL NULL sort sort restaurant_type restaurant_type NULL timeRange timeRange spatial_relation NULL NULL state NULL
+NULL NULL NULL party_size_number NULL NULL spatial_relation NULL poi poi poi poi NULL NULL restaurant_type NULL NULL cuisine cuisine NULL timeRange
+NULL NULL NULL NULL party_size_description party_size_description party_size_description party_size_description party_size_description NULL restaurant_name restaurant_name NULL timeRange timeRange spatial_relation spatial_relation spatial_relation spatial_relation NULL poi poi poi
+NULL NULL NULL NULL NULL NULL NULL NULL party_size_number NULL NULL sort restaurant_type spatial_relation poi poi poi poi NULL timeRange timeRange timeRange
+NULL NULL NULL NULL NULL NULL cuisine restaurant_type NULL party_size_number
+NULL NULL NULL NULL timeRange timeRange timeRange NULL city city NULL party_size_description party_size_description party_size_description party_size_description
+NULL NULL NULL NULL NULL NULL facility restaurant_type NULL party_size_description party_size_description party_size_description party_size_description
+NULL NULL NULL NULL NULL restaurant_type NULL NULL NULL served_dish NULL state
+NULL NULL NULL NULL NULL NULL city state NULL party_size_description party_size_description party_size_description party_size_description NULL
+NULL NULL NULL NULL NULL party_size_number NULL restaurant_name restaurant_name NULL country
+NULL NULL NULL NULL NULL city state
+NULL NULL NULL NULL NULL restaurant_type NULL city state NULL
+NULL NULL NULL NULL NULL NULL NULL NULL party_size_number timeRange timeRange

@@ -1,0 +1,89 @@
+[I 190812 21:54:40 slot-classifier:49] ----Start of Program----
+[I 190812 21:54:41 slot-classifier:160] Loading 'train' Data
+[I 190812 21:54:41 slot-classifier:145] Loading 'test' Data
+[I 190812 21:54:42 slot-classifier:131] Loading 'dev' Data
+[W 190812 21:54:42 slot-classifier:199] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 21:54:42 slot-classifier:200] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 21:54:42 slot-classifier:206] len all sentences: 16584
+[I 190812 21:54:42 slot-classifier:212] Splitting 'dev' Data
+[W 190812 21:54:42 slot-classifier:55] vocab_size: 12720
+[I 190812 21:54:42 slot-classifier:68] Creating Embedding Matrix
+[E 190812 22:16:12 slot-classifier:84] i: 12720
+    Traceback (most recent call last):
+      File "slot-classifier.py", line 82, in main
+        embedding_matrix[i] = embedding_vector[0][1][0]
+    IndexError: index 12720 is out of bounds for axis 0 with size 12720
+[I 190812 22:16:13 slot-classifier:95] Finished Embedding Matrix Creation, dumped it.
+[I 190812 22:16:14 slot-classifier:107] Compiling model
+[I 190812 22:16:14 slot-classifier:110] Model Summary: None
+[I 190812 22:16:14 slot-classifier:112] Fitting model
+[I 190812 22:19:27 slot-classifier:49] ----Start of Program----
+[I 190812 22:19:28 slot-classifier:160] Loading 'train' Data
+[I 190812 22:19:29 slot-classifier:145] Loading 'test' Data
+[I 190812 22:19:29 slot-classifier:131] Loading 'dev' Data
+[W 190812 22:19:29 slot-classifier:199] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:19:29 slot-classifier:200] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:19:29 slot-classifier:206] len all sentences: 16584
+[I 190812 22:19:30 slot-classifier:212] Splitting 'dev' Data
+[W 190812 22:19:30 slot-classifier:55] vocab_size: 12720
+[I 190812 22:19:30 slot-classifier:61] Loading existing embedding matrix
+[I 190812 22:19:31 slot-classifier:65] Finished Loading Embedding Matrix
+[I 190812 22:19:32 slot-classifier:107] Compiling model
+[I 190812 22:19:32 slot-classifier:110] Model Summary: None
+[I 190812 22:19:32 slot-classifier:112] Fitting model
+[I 190812 22:20:54 slot-classifier:49] ----Start of Program----
+[I 190812 22:20:55 slot-classifier:160] Loading 'train' Data
+[I 190812 22:20:55 slot-classifier:145] Loading 'test' Data
+[I 190812 22:20:56 slot-classifier:131] Loading 'dev' Data
+[W 190812 22:20:56 slot-classifier:201] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:20:56 slot-classifier:202] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:20:56 slot-classifier:208] len all sentences: 16584
+[I 190812 22:20:56 slot-classifier:214] Splitting 'dev' Data
+[W 190812 22:20:56 slot-classifier:55] vocab_size: 12720
+[I 190812 22:20:56 slot-classifier:61] Loading existing embedding matrix
+[I 190812 22:20:58 slot-classifier:65] Finished Loading Embedding Matrix
+[I 190812 22:20:58 slot-classifier:107] Compiling model
+[I 190812 22:20:58 slot-classifier:110] Model Summary: None
+[I 190812 22:20:58 slot-classifier:112] Fitting model
+[I 190812 22:21:23 slot-classifier:49] ----Start of Program----
+[I 190812 22:21:24 slot-classifier:160] Loading 'train' Data
+[I 190812 22:21:24 slot-classifier:145] Loading 'test' Data
+[I 190812 22:21:25 slot-classifier:131] Loading 'dev' Data
+[W 190812 22:21:25 slot-classifier:199] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:21:25 slot-classifier:200] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:21:25 slot-classifier:206] len all sentences: 16584
+[I 190812 22:21:25 slot-classifier:212] Splitting 'dev' Data
+[W 190812 22:21:25 slot-classifier:55] vocab_size: 12720
+[I 190812 22:21:25 slot-classifier:61] Loading existing embedding matrix
+[I 190812 22:21:27 slot-classifier:65] Finished Loading Embedding Matrix
+[I 190812 22:21:27 slot-classifier:107] Compiling model
+[I 190812 22:21:27 slot-classifier:110] Model Summary: None
+[I 190812 22:21:27 slot-classifier:112] Fitting model
+[I 190812 22:22:02 slot-classifier:49] ----Start of Program----
+[I 190812 22:22:03 slot-classifier:160] Loading 'train' Data
+[I 190812 22:22:03 slot-classifier:145] Loading 'test' Data
+[I 190812 22:22:04 slot-classifier:131] Loading 'dev' Data
+[W 190812 22:22:04 slot-classifier:199] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:22:04 slot-classifier:200] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:22:04 slot-classifier:206] len all sentences: 16584
+[I 190812 22:22:04 slot-classifier:212] Splitting 'dev' Data
+[W 190812 22:22:04 slot-classifier:55] vocab_size: 12720
+[I 190812 22:22:04 slot-classifier:61] Loading existing embedding matrix
+[I 190812 22:22:05 slot-classifier:65] Finished Loading Embedding Matrix
+[I 190812 22:22:06 slot-classifier:107] Compiling model
+[I 190812 22:22:06 slot-classifier:110] Model Summary: None
+[I 190812 22:22:06 slot-classifier:112] Fitting model
+[I 190812 22:22:41 slot-classifier:49] ----Start of Program----
+[I 190812 22:22:42 slot-classifier:160] Loading 'train' Data
+[I 190812 22:22:42 slot-classifier:145] Loading 'test' Data
+[I 190812 22:22:43 slot-classifier:131] Loading 'dev' Data
+[W 190812 22:22:43 slot-classifier:199] sentences: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:22:43 slot-classifier:200] gold: len train: 700, len test: 13784, len dev: 2100
+[W 190812 22:22:43 slot-classifier:206] len all sentences: 16584
+[I 190812 22:22:43 slot-classifier:212] Splitting 'dev' Data
+[W 190812 22:22:43 slot-classifier:55] vocab_size: 12720
+[I 190812 22:22:43 slot-classifier:61] Loading existing embedding matrix
+[I 190812 22:22:45 slot-classifier:65] Finished Loading Embedding Matrix
+[I 190812 22:22:45 slot-classifier:107] Compiling model
+[I 190812 22:22:45 slot-classifier:110] Model Summary: None
+[I 190812 22:22:45 slot-classifier:112] Fitting model

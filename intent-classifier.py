@@ -41,7 +41,7 @@ OPTIMIZER = 'adam'
 LOSS = 'categorical_crossentropy'
 DROPOUT = 0.4
 
-logzero.logfile("Log/logs.log", maxBytes=1e6, backupCount=5)
+logzero.logfile("Log/intent-logs.log", maxBytes=1e6, backupCount=5)
 logzero.loglevel(10)
 logger = logzero.logger
 
@@ -78,7 +78,10 @@ def main():
             #logger.info("Found Embedding")
             # print(embedding_vector[0][1][0])
             if embedding_vector is not None:
-                embedding_matrix[i] = embedding_vector[0][1][0]
+                try:
+                    embedding_matrix[i] = embedding_vector[0][1][0]
+                except:
+                    logger.exception("i: %s", i)
 
         embedding_matrix = np.insert(embedding_matrix, 0, np.zeros(EMBEDDING_SIZE), axis=0)
 
@@ -92,7 +95,7 @@ def main():
         logger.info("Finished Embedding Matrix Creation, dumped it.")
     # define model
     model = Sequential()
-    e = Embedding(vocab_size, EMBEDDING_SIZE, input_length=MAX_SENTENCE_LENGTH, weights=[embedding_matrix], trainable=False, mask_zero=True)
+    e = Embedding(vocab_size + 1, EMBEDDING_SIZE, input_length=MAX_SENTENCE_LENGTH, weights=[embedding_matrix], trainable=False, mask_zero=True)
     model.add(e)
     model.add(SpatialDropout1D(DROPOUT))
     model.add(LSTM(64, dropout=DROPOUT, recurrent_dropout=DROPOUT))
@@ -223,10 +226,10 @@ def process_Data():
     allSentences.extend(sentencesTest)
     allSentences.extend(sentencesTrain)
 
-    logger.warning("len all sentences: %s", len(sentencesTrain))
+    logger.warning("len all sentences: %s", len(allSentences))
 
     tokenizer.fit_on_texts(allSentences)
-    vocab_size = len(tokenizer.word_index) + 2  # define the amount of tokens, +1 b/c of zero vector, ?+1 unknown?
+    vocab_size = len(tokenizer.word_index)  # + 3  # define the amount of tokens, +1 b/c of zero vector, ?+1 unknown?
 
     if DATA_SET_TYPE == "dev":
         logger.info("Splitting 'dev' Data")
