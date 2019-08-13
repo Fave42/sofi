@@ -165,6 +165,7 @@ def slotCount(path_dev, path_test, path_train):
                             entryText = []
                             if "entity" in entry:
                                 slot = entry["entity"]
+                                slot = slot.replace("_", "")
                                 if slot in SlotDict:
                                     SlotDict[slot] +=1
                                 else:
@@ -182,10 +183,10 @@ def slotCount(path_dev, path_test, path_train):
         print(len(SlotDict)) # 39 entity, i.e. slot, types
 
        
-# slotCount(path_dev, path_test, path_train)
-slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
-slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
-slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
-intents(path_dev, "dev.tsv")
-intents(path_test, "test.tsv")
-intents(path_train, "train.tsv")
+slotCount(path_dev, path_test, path_train)
+# slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
+# slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
+# slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
+# intents(path_dev, "dev.tsv")
+# intents(path_test, "test.tsv")
+# intents(path_train, "train.tsv")

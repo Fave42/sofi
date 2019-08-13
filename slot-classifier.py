@@ -9,6 +9,8 @@ https://github.com/CyberZHG/keras-bert
 @Author: Fabian Fey, Gianna Weber
 """
 
+from collections import Counter
+
 
 import numpy as np
 import logging
@@ -21,7 +23,7 @@ import os
 
 import tensorflow.keras as keras
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Activation, Embedding, Flatten, LSTM, SpatialDropout1D
+from tensorflow.keras.layers import Dense, Activation, Embedding, Flatten, LSTM, SpatialDropout1D, SimpleRNN, InputLayer
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -35,10 +37,10 @@ MAX_SENTENCE_LENGTH = 30
 EMBEDDING_SIZE = 768
 
 EPOCHS = 50
-BATCH_SIZE = 30
+# BATCH_SIZE = 30
 ACTIVATION = ""
 OPTIMIZER = 'adam'
-LOSS = 'categorical_crossentropy'
+LOSS = 'sparse_categorical_crossentropy'
 DROPOUT = 0.4
 
 logzero.logfile("Log/slot-logs.log", maxBytes=1e6, backupCount=5)
@@ -52,9 +54,22 @@ def main():
 
     sentences_Train, sentences_Test, labels_Train, labels_Test, vocab_size, tokenizerSentences = process_Data()
 
+    LabelsTrainPadded = []
+    LabelsTestPadded = []
+    
+    for utt in labels_Train:
+        tmp = []
+        for label in utt:
+            # print(keras.utils.to_categorical(label, 41))
+            tmp.extend(keras.utils.to_categorical(label, 41))  # 40 slots + NULL
+        LabelsTrainPadded.append(tmp)
+    for utt in labels_Test:
+        tmp = []
+        for label in utt:
+            tmp.extend(keras.utils.to_categorical(label, 41))  # 40 slots + NULL
+        LabelsTestPadded.append(tmp)
+    
     logger.warning("vocab_size: %s", vocab_size)
-
-    # X_train, Y_train = load_Dev()
    
     # if os.path.isfile("Cache/slotEmbeddingMatrix.pickle"):
     if os.path.isfile("Cache/slotEmbeddingMatrix.pickle"):
@@ -95,13 +110,13 @@ def main():
         logger.info("Finished Embedding Matrix Creation, dumped it.")
     # define model
     model = Sequential()
+    #model.add(InputLayer(input_shape=(30,)))
     e = Embedding(vocab_size + 1, EMBEDDING_SIZE, input_length=MAX_SENTENCE_LENGTH, weights=[embedding_matrix], trainable=False, mask_zero=True)
     model.add(e)
     model.add(SpatialDropout1D(DROPOUT))
     model.add(LSTM(64, dropout=DROPOUT, recurrent_dropout=DROPOUT))
-    model.add(Dense(7))
+    model.add(Dense(30))
     model.add(Activation("softmax"))
-    #model.add(Dense(7, activation='softmax'))
 
     # compile the model
     logger.info("Compiling model")
@@ -110,13 +125,21 @@ def main():
     logger.info("Model Summary: %s", str(model.summary()))
     # fit the model
     logger.info("Fitting model")
+    # print(type(LabelsTestPadded))
+    # logger.warning("Sentences %s", LabelsTestPadded.shape)
+    # logger.warning("Labels %s", LabelsTrainPadded.shape)
+    # print(np.array(LabelsTrainPadded))
+    # print(len(LabelsTrainPadded[0][0]))
+    # print(labels_Train)
+    # labels_Train.reshape(1407, 30)
+    # print(labels_Train.shape)
+    print(labels_Train)
     model.fit(sentences_Train, labels_Train, epochs=EPOCHS, verbose=0)
     # evaluate the model
     logger.info("Evaluating model")
     loss, accuracy = model.evaluate(sentences_Test, labels_Test, verbose=0)
     logger.info('Accuracy: %f' % (accuracy*100))
     logger.info("----End of Programm----")
-
 
 def load_Data(dataset):
     tokenizerSlots = Tokenizer()
@@ -125,16 +148,24 @@ def load_Data(dataset):
     slotIndices = []
     slotList = LoadSlotList()
 
+    uniqueTokens = []
+
     tokenizerSlots.fit_on_texts(slotList)
 
     if dataset == "dev":
         logger.info("Loading 'dev' Data")
         with open("TrainingData/Slots/dev_slot_label.tsv", 'r') as devLabelFile:
             for line in devLabelFile:
-                line = line.split("\t")
+                # line = keras.preprocessing.text.text_to_word_sequence(line, filters='\n', lower=False, split='\t')
+                line = line.replace("\n", "")
+                line = line.replace("_", "")  # Remove underscores in slots b/c 'text_to_sequences' stupidly splits again at underscores... 'party_size_number' --> 'partysizenumber'
+                line = line.split(" ")
+                uniqueTokens.extend(line)
                 sequence = tokenizerSlots.texts_to_sequences(line)
-                slotIndices.extend(sequence)
-
+                
+                # flattened = [val for sublist in sequence for val in sublist]  # flatten the strange nested list ourput from the 'texts_to_sequences()'
+                slotIndices.append(sequence)
+        
         with open("TrainingData/Slots/dev_slot_Utt.tsv", 'r') as devUttFile:
             for utterance in devUttFile:
 
@@ -146,9 +177,14 @@ def load_Data(dataset):
 
         with open("TrainingData/Slots/test_slot_label.tsv", 'r') as devLabelFile:
             for line in devLabelFile:
-                line = line.split("\t")
+                line = line.replace("\n", "")
+                line = line.replace("_", "")  # Remove underscores in slots b/c 'text_to_sequences' stupidly splits again at underscores... 'party_size_number' --> 'partysizenumber'
+                line = line.split(" ")
+                uniqueTokens.extend(line)
                 sequence = tokenizerSlots.texts_to_sequences(line)
-                slotIndices.extend(sequence)
+
+                # flattened = [val for sublist in sequence for val in sublist]  # flatten the strange nested list ourput from the 'texts_to_sequences()'
+                slotIndices.append(sequence)
 
         with open("TrainingData/Slots/test_slot_Utt.tsv", 'r') as devUttFile:
             for utterance in devUttFile:
@@ -160,17 +196,26 @@ def load_Data(dataset):
         logger.info("Loading 'train' Data")
         with open("TrainingData/Slots/train_slot_label.tsv", 'r') as devLabelFile:
             for line in devLabelFile:
-                line = line.split("\t")
+                # line = keras.preprocessing.text.text_to_word_sequence(line, filters='\n', lower=False, split='\t')
+                line = line.replace("\n", "")
+                line = line.replace("_", "")  # Remove underscores in slots b/c 'text_to_sequences' stupidly splits again at underscores... 'party_size_number' --> 'partysizenumber'
+                line = line.split(" ")
+                uniqueTokens.extend(line)
                 sequence = tokenizerSlots.texts_to_sequences(line)
-                slotIndices.extend(sequence)
+
+                # flattened = [val for sublist in sequence for val in sublist]  # flatten the strange nested list ourput from the 'texts_to_sequences()'
+                slotIndices.append(sequence)
 
         with open("TrainingData/Slots/train_slot_Utt.tsv", 'r') as devUttFile:
             for utterance in devUttFile:
 
                 utterancePreProc = keras.preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split=' ')
                 sentences.append(utterancePreProc)
-        
-    return sentences, slotIndices
+
+    logger.debug("All unique slots: %s", Counter(uniqueTokens).keys())  # equals to list(set(words))
+
+    nullIndex = tokenizerSlots.texts_to_sequences(['NULL'])[0][0]
+    return sentences, slotIndices, nullIndex
 
 def LoadSlotList():
 
@@ -183,7 +228,7 @@ def LoadSlotList():
                     slotList.append(item)
 
         # logger.debug("all slots: %s", slotList)
-        # logger.debug("Lenght SlotList: %s", len(slotList))
+        logger.debug("Lenght SlotList: %s", len(slotList))
     
     return(slotList)
 
@@ -192,9 +237,9 @@ def process_Data():
 
     allSentences = []
 
-    sentencesTrain, goldTrain = load_Data("train")
-    sentencesTest, goldTest = load_Data("test")
-    sentencesDev, goldDev = load_Data("dev")
+    sentencesTrain, goldTrain, nullIndex = load_Data("train")
+    sentencesTest, goldTest, nullIndex = load_Data("test")
+    sentencesDev, goldDev, nullIndex = load_Data("dev")
 
     logger.warning("sentences: len train: %s, len test: %s, len dev: %s", len(sentencesTrain), len(sentencesTest), len(sentencesDev))
     logger.warning("gold: len train: %s, len test: %s, len dev: %s", len(goldTrain), len(goldTest), len(goldDev))
@@ -219,8 +264,11 @@ def process_Data():
         # Pad each sentence to a length of MAX_SENTENCE_LENGTH
         X_Train_Padded = pad_sequences(X_Train_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
         X_Test_Padded = pad_sequences(X_Test_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
+        
+        Y_Train_Padded = pad_sequences(labels_Train, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
+        Y_Test_Padded = pad_sequences(labels_Test, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
 
-        return X_Train_Padded, X_Test_Padded, labels_Train, labels_Test, vocab_size, tokenizerSentences
+        return X_Train_Padded, X_Test_Padded, Y_Train_Padded, Y_Test_Padded, vocab_size, tokenizerSentences
 
     elif DATA_SET_TYPE == "test":
         logger.info("Splitting 'test' Data")
@@ -234,7 +282,10 @@ def process_Data():
         X_Train_Padded = pad_sequences(X_Train_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
         X_Test_Padded = pad_sequences(X_Test_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
 
-        return X_Train_Padded, X_Test_Padded, labels_Train, labels_Test, vocab_size, tokenizerSentences
+        Y_Train_Padded = pad_sequences(labels_Train, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
+        Y_Test_Padded = pad_sequences(labels_Test, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
+
+        return X_Train_Padded, X_Test_Padded, Y_Train_Padded, Y_Test_Padded, vocab_size, tokenizerSentences
 
     else:
         logger.info("Splitting 'train' Data")
@@ -248,8 +299,10 @@ def process_Data():
         X_Train_Padded = pad_sequences(X_Train_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
         X_Test_Padded = pad_sequences(X_Test_Encoded, maxlen=MAX_SENTENCE_LENGTH, padding='post')
 
-        return X_Train_Padded, X_Test_Padded, labels_Train, labels_Test, vocab_size, tokenizerSentences
+        Y_Train_Padded = pad_sequences(labels_Train, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
+        Y_Test_Padded = pad_sequences(labels_Test, maxlen=MAX_SENTENCE_LENGTH, padding='post', value = int(nullIndex))
 
+        return X_Train_Padded, X_Test_Padded, Y_Train_Padded, Y_Test_Padded, vocab_size, tokenizerSentences
 
 if __name__ == "__main__":
     main()
