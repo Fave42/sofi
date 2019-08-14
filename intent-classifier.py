@@ -15,9 +15,6 @@ import logging
 import logzero
 import pickle
 import os
-# import msgpack
-# import msgpack_numpy as msgp
-# msgp.patch()
 
 import tensorflow.keras as keras
 from tensorflow.keras.models import Sequential
@@ -32,7 +29,7 @@ from sklearn.model_selection import train_test_split
 DATA_SET_TYPE = "dev"
 
 MAX_SENTENCE_LENGTH = 30
-EMBEDDING_SIZE = 768
+EMBEDDING_SIZE = 768 # lenght of vector created by BERT
 
 EPOCHS = 50
 BATCH_SIZE = 30
@@ -52,45 +49,37 @@ def main():
 
     sentences_Train, sentences_Test, labels_Train, labels_Test, vocab_size, tokenizer = process_Data()
 
-    logger.warning("vocab_size: %s", vocab_size)
+    logger.debug("vocab_size: %s", vocab_size)
 
-    # X_train, Y_train = load_Dev()
-   
-    # if os.path.isfile("Cache/embeddingMatrix.pickle"):
-    if os.path.isfile("Cache/embeddingMatrix.pickle"):
+    if os.path.isfile("Cache/embeddingMatrix.pickle"): # Check for embedding matrix
         logger.info("Loading existing embedding matrix")
         with open("Cache/embeddingMatrix.pickle", "rb") as file:
             embedding_matrix = pickle.load(file)
-            # embedding_matrix = msgpack.unpackb(file, default=msgp.encode)
         logger.info("Finished Loading Embedding Matrix")
 
     else: 
         logger.info("Creating Embedding Matrix")
-        # create a weight matrix for words in training utterancePreProc
-        embedding_matrix = np.zeros((vocab_size, EMBEDDING_SIZE))
+        # create a weight matrix for words in training
+        embedding_matrix = np.zeros((vocab_size, EMBEDDING_SIZE)) # create matrix with zeros
 
-        for word, i in tokenizer.word_index.items():
-            # Creating a list on which to put the word since the python implementation of BERT want's a list not a single word
+        for word, i in tokenizer.word_index.items(): # check index per word
+            # Creating a list on which to put the word since the python implementation of BERT want's a list, not a single word
             tmpList = []
             tmpList.append(word)
-            #logger.info("Search Embedding: %s", word)
             embedding_vector = bert_embedding(tmpList)
-            #logger.info("Found Embedding")
-            # print(embedding_vector[0][1][0])
+
             if embedding_vector is not None:
                 try:
                     embedding_matrix[i] = embedding_vector[0][1][0]
                 except:
                     logger.exception("i: %s", i)
 
-        embedding_matrix = np.insert(embedding_matrix, 0, np.zeros(EMBEDDING_SIZE), axis=0)
+        embedding_matrix = np.insert(embedding_matrix, 0, np.zeros(EMBEDDING_SIZE), axis=0) # 0 = OOV, but not needed
 
         print(embedding_matrix)
 
         with open("Cache/embeddingMatrix.pickle", "wb") as file:
             pickle.dump(embedding_matrix, file)
-            # packed = msgpack.packb(embedding_matrix, default=msgp.encode)
-            # file.write(packed)
 
         logger.info("Finished Embedding Matrix Creation, dumped it.")
     # define model
@@ -101,7 +90,6 @@ def main():
     model.add(LSTM(64, dropout=DROPOUT, recurrent_dropout=DROPOUT))
     model.add(Dense(7))
     model.add(Activation("softmax"))
-    #model.add(Dense(7, activation='softmax'))
 
     # compile the model
     logger.info("Compiling model")
@@ -119,7 +107,7 @@ def main():
 
 
 def load_Data(dataset):
-    sentences = []
+    utterances = []
     one_hot_intents = []
 
     if dataset == "dev":
@@ -128,10 +116,10 @@ def load_Data(dataset):
             for line in devFile:
                 line = line.split("\t")
                 
-                utterance = line[1]
+                utterance = line[1] # [0] = intent, [1] = utterance
                 
-                utterancePreProc = keras.preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split=' ')
-                sentences.append(utterancePreProc)
+                utterancePreProc = keras.preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split=' ') # tokenizer, returns each utterance as list
+                utterances.append(utterancePreProc)
 
                 if int(line[0]) == 1:
                     encoded = np.array([1, 0, 0, 0, 0, 0, 0])
@@ -159,7 +147,7 @@ def load_Data(dataset):
                 utterance = line[1]
                 
                 utterancePreProc = keras.preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split=' ')
-                sentences.append(utterancePreProc)
+                utterances.append(utterancePreProc)
 
                 if int(line[0]) == 1:
                     encoded = np.array([1, 0, 0, 0, 0, 0, 0])
@@ -187,7 +175,7 @@ def load_Data(dataset):
                 utterance = line[1]
                 
                 utterancePreProc = keras.preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split=' ')
-                sentences.append(utterancePreProc)
+                utterances.append(utterancePreProc)
 
                 if int(line[0]) == 1:
                     encoded = np.array([1, 0, 0, 0, 0, 0, 0])
@@ -207,7 +195,7 @@ def load_Data(dataset):
                 one_hot_intents.append(encoded)
                 npArray = np.array(one_hot_intents)
                 
-    return sentences, npArray
+    return utterances, npArray
 
 
 def process_Data():
@@ -219,14 +207,14 @@ def process_Data():
     sentencesTest, goldTest = load_Data("test")
     sentencesDev, goldDev = load_Data("dev")
 
-    logger.warning("sentences: len train: %s, len test: %s, len dev: %s", len(sentencesTrain), len(sentencesTest), len(sentencesDev))
+    logger.warning("utterances: len train: %s, len test: %s, len dev: %s", len(sentencesTrain), len(sentencesTest), len(sentencesDev))
     logger.warning("gold: len train: %s, len test: %s, len dev: %s", len(goldTrain), len(goldTest), len(goldDev))
 
     allSentences.extend(sentencesDev)
     allSentences.extend(sentencesTest)
     allSentences.extend(sentencesTrain)
 
-    logger.warning("len all sentences: %s", len(allSentences))
+    logger.warning("len all utterances: %s", len(allSentences))
 
     tokenizer.fit_on_texts(allSentences)
     vocab_size = len(tokenizer.word_index)  # + 3  # define the amount of tokens, +1 b/c of zero vector, ?+1 unknown?

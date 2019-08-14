@@ -45,13 +45,11 @@ def removeChar(str, n):
 for subdir, dirs, files in os.walk('Data/'):
     for file in files:
         if "train" in file and "full" not in file:  # dev
-            # print(os.path.join(subdir, file))
             path_dev.append(os.path.join(subdir, file))
-        elif "full" in file:  # test
-            path_test.append(os.path.join(subdir, file))
-        elif "validate" in file:  # train
+        elif "full" in file:  # train
             path_train.append(os.path.join(subdir, file))
-# print(paths)
+        elif "validate" in file:  # test
+            path_test.append(os.path.join(subdir, file))
 
 
 def intents(paths, filename):
@@ -67,24 +65,22 @@ def intents(paths, filename):
                         for key in data:
                             # print(key)
                             text = []
-                            entity = []
-                            index = 0
                             for entry in data[key]:
                                 #print(entry["text"])
-                                tmpText = entry["text"]
+                                tmpText = entry["text"] # phrases for particular slots
                                 tmpText = tmpText.replace("\n", "")
-                                tmpText = tmpText.replace("  ", " ")
-                                text.append(tmpText)
+                                tmpText = tmpText.replace("  ", " ") # to circumvent newlines withing utterance/phrase, e.g. " \n "
+                                text.append(tmpText) # total utterance 
                             if len("".join(text)) != 0:
-                                print(str(intent_dict[intent])+"\t"+"".join(text))
-                                OutputFile.write(str(intent_dict[intent])+"\t"+"".join(text)+"\n")
+                                print(str(intent_dict[intent])+"\t"+"".join(text)) # mapping from 1-7 to possible intents
+                                OutputFile.write(str(intent_dict[intent])+"\t"+"".join(text)+"\n") # create new data files (dev, test, train) for intents
 
 
 def slots(paths, slotLabel, slotUtterance):
-    with open(slotLabel, 'w') as LabelOutputFile:
-        with open(slotUtterance, 'w') as UtteranceOutputFile:
-            for path in paths:
-                with open(path, 'r', encoding='ISO-8859-1') as jsonFile:
+    with open(slotLabel, 'w') as SlotLabelOutputFile:
+        with open(slotUtterance, 'w') as SlotUtteranceOutputFile:
+            for path in paths: # iterate over all files
+                with open(path, 'r', encoding='ISO-8859-1') as jsonFile: 
                     file = json.load(jsonFile)
                     for intent in file:  # {"AddToPlaylist":[...]}
                         # print(intent)
@@ -96,14 +92,15 @@ def slots(paths, slotLabel, slotUtterance):
                                 entity = []
                                 for entry in data[key]:
                                     entryText = []
-                                    if "entity" in entry:
-                                        utterance = entry["text"]
+                                    if "entity" in entry: # slot "entity"
+                                        utterance = entry["text"] # part of utterances 
 
                                         utterance = utterance.replace("\n", "")
                                         utterance = utterance.replace("  ", " ")
-                                        textSplit = utterance.split(" ")
+                                        textSplit = utterance.split(" ") # split at whitespace
                                         
-                                        for i in range(0, len(textSplit)):
+                                        # "text": "Cita Romántica" has "entity": "playlist" -> text = ["Cita", "Romántica"], entity = ["playlist", "playlist"]
+                                        for i in range(0, len(textSplit)): 
                                             entity.append(entry["entity"])
                                         text.extend(textSplit)
                                         # print("Text: %s", text)
@@ -112,6 +109,7 @@ def slots(paths, slotLabel, slotUtterance):
                                         utterance = utterance.replace("\n", "")
                                         utterance = utterance.replace("  ", " ")
                                         
+                                        # Problem with preceding and following whitespaces: needed to be removed
                                         if utterance == " ":
                                             continue
                                         elif utterance[:1] == " ":
@@ -134,16 +132,17 @@ def slots(paths, slotLabel, slotUtterance):
                                     text.extend(entryText)
 
                                 #print("".join(text))
-                                utterance = " ".join(text)
-                                labels = " ".join(entity)
+                                utterance = "\t".join(text)
+                                labels = "\t".join(entity)
                                 
                                 utterance = utterance.replace("\n", "")
                                 utterance = utterance.replace("  ", " ")
                                 labels = labels.replace("\n", "")
                                 
-                                LabelOutputFile.write(labels + "\n")
-                                UtteranceOutputFile.write(utterance + "\n") 
+                                SlotLabelOutputFile.write(labels + "\n")
+                                SlotUtteranceOutputFile.write(utterance + "\n") 
 
+# Will be removed in a future version
 def slotCount(path_dev, path_test, path_train):
     paths = []
     paths.extend(path_dev)
@@ -183,10 +182,10 @@ def slotCount(path_dev, path_test, path_train):
         print(len(SlotDict)) # 39 entity, i.e. slot, types
 
        
-slotCount(path_dev, path_test, path_train)
-# slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
-# slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
-# slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
+#slotCount(path_dev, path_test, path_train)
+slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
+slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
+slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
 # intents(path_dev, "dev.tsv")
 # intents(path_test, "test.tsv")
 # intents(path_train, "train.tsv")
