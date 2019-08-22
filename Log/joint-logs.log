@@ -1,0 +1,594 @@
+[D 190822 11:28:38 joint-classifier:80] Train Utterance: [3486, 8425, 1338, 9496, 941, 836, 6589, 5567, 5640, 1338, 3151]
+[D 190822 11:28:38 joint-classifier:81] Test Utterance: [3486, 182, 7758, 3027, 2376, 6043, 6781]
+[D 190822 11:28:38 joint-classifier:82] Train Slots: [21, 22, 22, 22, 40, 22, 28, 22, 5, 5, 5]
+[D 190822 11:28:38 joint-classifier:83] Test Slots: [4, 22, 2, 2, 22, 47, 22]
+[D 190822 11:28:38 joint-classifier:87] Maximum utterance lenght: 36
+[D 190822 11:28:38 joint-classifier:95] Train Utterance: [3486 8425 1338 9496  941  836 6589 5567 5640 1338 3151    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 11:28:38 joint-classifier:96] Test Utterance: [3486  182 7758 3027 2376 6043 6781    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 11:28:38 joint-classifier:97] Train Slots: [21 22 22 22 40 22 28 22  5  5  5  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 11:28:38 joint-classifier:98] Test Slots: [ 4 22  2  2 22 47 22  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 11:28:39 joint-classifier:115] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 11:35:44 joint-classifier:25] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 11:35:44 joint-classifier:26] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 11:35:44 joint-classifier:85] Train Utterance: [2794, 3266, 3939, 8775, 7594, 10304, 1540, 6446, 8703, 3939, 1434, 10164]
+[D 190822 11:35:44 joint-classifier:86] Test Utterance: [2794, 7094, 3896, 420, 2434, 8750, 1128, 10164]
+[D 190822 11:35:44 joint-classifier:87] Train Slots: [26, 32, 32, 32, 25, 32, 9, 32, 24, 24, 24, 26]
+[D 190822 11:35:44 joint-classifier:88] Test Slots: [19, 32, 11, 11, 32, 18, 32, 19]
+[D 190822 11:35:44 joint-classifier:92] Maximum utterance lenght: 37
+[D 190822 11:35:44 joint-classifier:100] Train Utterance: [ 2794  3266  3939  8775  7594 10304  1540  6446  8703  3939  1434 10164
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 11:35:44 joint-classifier:101] Test Utterance: [ 2794  7094  3896   420  2434  8750  1128 10164     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 11:35:44 joint-classifier:102] Train Slots: [26 32 32 32 25 32  9 32 24 24 24 26  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 11:35:44 joint-classifier:103] Test Slots: [19 32 11 11 32 18 32 19  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 11:35:46 joint-classifier:120] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 12:56:12 joint-classifier:30] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 12:56:12 joint-classifier:31] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 12:56:13 joint-classifier:90] Train Utterance: [3683, 5280, 8889, 8921, 2708, 5031, 7575, 5068, 3026, 8889, 2212, 3223]
+[D 190822 12:56:13 joint-classifier:91] Test Utterance: [3683, 923, 5729, 4208, 5294, 2885, 10012, 3223]
+[D 190822 12:56:13 joint-classifier:92] Train Slots: [9, 41, 41, 41, 5, 41, 25, 41, 6, 6, 6, 9]
+[D 190822 12:56:13 joint-classifier:93] Test Slots: [37, 41, 29, 29, 41, 28, 41, 37]
+[D 190822 12:56:13 joint-classifier:97] Maximum utterance lenght: 37
+[D 190822 12:56:13 joint-classifier:105] Train Utterance: [3683 5280 8889 8921 2708 5031 7575 5068 3026 8889 2212 3223    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 12:56:13 joint-classifier:106] Test Utterance: [ 3683   923  5729  4208  5294  2885 10012  3223     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 12:56:13 joint-classifier:107] Train Slots: [ 9 41 41 41  5 41 25 41  6  6  6  9  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 12:56:13 joint-classifier:108] Test Slots: [37 41 29 29 41 28 41 37  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 12:56:14 joint-classifier:125] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:23:18 joint-classifier:31] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:23:18 joint-classifier:32] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:23:18 joint-classifier:33] Learning Rate: 0.001 
+[D 190822 13:23:18 joint-classifier:34] Batch Size: 128 
+[D 190822 13:23:18 joint-classifier:35] Epochs: 10 
+[D 190822 13:23:18 joint-classifier:95] Train Utterance: [874, 9616, 8719, 8864, 8384, 4493, 3695, 2618, 2304, 8719, 2020, 6485]
+[D 190822 13:23:18 joint-classifier:96] Test Utterance: [874, 7081, 1765, 4990, 7599, 8070, 8702, 6485]
+[D 190822 13:23:18 joint-classifier:97] Train Slots: [46, 15, 15, 15, 11, 15, 28, 15, 8, 8, 8, 46]
+[D 190822 13:23:18 joint-classifier:98] Test Slots: [26, 15, 30, 30, 15, 40, 15, 26]
+[D 190822 13:23:18 joint-classifier:102] Maximum utterance lenght: 37
+[D 190822 13:23:18 joint-classifier:110] Train Utterance: [ 874 9616 8719 8864 8384 4493 3695 2618 2304 8719 2020 6485    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:23:18 joint-classifier:111] Test Utterance: [ 874 7081 1765 4990 7599 8070 8702 6485    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:23:18 joint-classifier:112] Train Slots: [46 15 15 15 11 15 28 15  8  8  8 46  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:23:18 joint-classifier:113] Test Slots: [26 15 30 30 15 40 15 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:23:20 joint-classifier:130] Slots to categorical: [[0. 0. 0. ... 0. 1. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:25:43 joint-classifier:26] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:25:43 joint-classifier:27] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:25:43 joint-classifier:28] Learning Rate: 0.001 
+[D 190822 13:25:43 joint-classifier:29] Batch Size: 128 
+[D 190822 13:25:43 joint-classifier:30] Epochs: 10 
+[D 190822 13:25:44 joint-classifier:90] Train Utterance: [7655, 9133, 8827, 4109, 10065, 281, 3658, 3490, 8548, 8827, 4205, 6040]
+[D 190822 13:25:44 joint-classifier:91] Test Utterance: [7655, 7114, 7232, 2644, 6232, 3584, 2475, 6040]
+[D 190822 13:25:44 joint-classifier:92] Train Slots: [32, 39, 39, 39, 2, 39, 14, 39, 3, 3, 3, 32]
+[D 190822 13:25:44 joint-classifier:93] Test Slots: [11, 39, 35, 35, 39, 44, 39, 11]
+[D 190822 13:25:44 joint-classifier:97] Maximum utterance lenght: 37
+[D 190822 13:25:44 joint-classifier:105] Train Utterance: [ 7655  9133  8827  4109 10065   281  3658  3490  8548  8827  4205  6040
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 13:25:44 joint-classifier:106] Test Utterance: [7655 7114 7232 2644 6232 3584 2475 6040    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:25:44 joint-classifier:107] Train Slots: [32 39 39 39  2 39 14 39  3  3  3 32  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:25:44 joint-classifier:108] Test Slots: [11 39 35 35 39 44 39 11  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:25:48 joint-classifier:129] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:28:36 joint-classifier:26] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:28:36 joint-classifier:27] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:28:36 joint-classifier:28] Learning Rate: 0.001 
+[D 190822 13:28:36 joint-classifier:29] Batch Size: 128 
+[D 190822 13:28:36 joint-classifier:30] Epochs: 10 
+[D 190822 13:28:37 joint-classifier:90] Train Utterance: [4001, 414, 8218, 6864, 7826, 3828, 1664, 2380, 1644, 8218, 8732, 2356]
+[D 190822 13:28:37 joint-classifier:91] Test Utterance: [4001, 6242, 5623, 4771, 5043, 6840, 10324, 2356]
+[D 190822 13:28:37 joint-classifier:92] Train Slots: [36, 28, 28, 28, 44, 28, 11, 28, 10, 10, 10, 36]
+[D 190822 13:28:37 joint-classifier:93] Test Slots: [23, 28, 9, 9, 28, 21, 28, 23]
+[D 190822 13:28:37 joint-classifier:97] Maximum utterance lenght: 37
+[D 190822 13:28:37 joint-classifier:105] Train Utterance: [4001  414 8218 6864 7826 3828 1664 2380 1644 8218 8732 2356    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:28:37 joint-classifier:106] Test Utterance: [ 4001  6242  5623  4771  5043  6840 10324  2356     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 13:28:37 joint-classifier:107] Train Slots: [36 28 28 28 44 28 11 28 10 10 10 36  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:28:37 joint-classifier:108] Test Slots: [23 28  9  9 28 21 28 23  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:28:41 joint-classifier:129] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:33:01 joint-classifier:26] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:33:01 joint-classifier:27] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:33:01 joint-classifier:28] Learning Rate: 0.001 
+[D 190822 13:33:01 joint-classifier:29] Batch Size: 128 
+[D 190822 13:33:01 joint-classifier:30] Epochs: 10 
+[D 190822 13:33:02 joint-classifier:90] Train Utterance: [5289, 8296, 6712, 6826, 4808, 670, 9580, 8795, 514, 6712, 1621, 551]
+[D 190822 13:33:02 joint-classifier:91] Test Utterance: [5289, 8572, 6245, 7039, 6896, 5553, 9332, 551]
+[D 190822 13:33:02 joint-classifier:92] Train Slots: [13, 44, 44, 44, 1, 44, 10, 44, 26, 26, 26, 13]
+[D 190822 13:33:02 joint-classifier:93] Test Slots: [23, 44, 34, 34, 44, 8, 44, 23]
+[D 190822 13:33:02 joint-classifier:97] Maximum utterance lenght: 37
+[D 190822 13:33:02 joint-classifier:105] Train Utterance: [5289 8296 6712 6826 4808  670 9580 8795  514 6712 1621  551    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:33:02 joint-classifier:106] Test Utterance: [5289 8572 6245 7039 6896 5553 9332  551    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:33:02 joint-classifier:107] Train Slots: [13 44 44 44  1 44 10 44 26 26 26 13  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:33:02 joint-classifier:108] Test Slots: [23 44 34 34 44  8 44 23  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:33:06 joint-classifier:129] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:38:12 joint-classifier:26] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:38:12 joint-classifier:27] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:38:12 joint-classifier:28] Learning Rate: 0.001 
+[D 190822 13:38:12 joint-classifier:29] Batch Size: 128 
+[D 190822 13:38:12 joint-classifier:30] Epochs: 10 
+[D 190822 13:38:12 joint-classifier:90] Train Utterance: [8636, 4303, 5503, 1581, 8425, 2933, 5149, 9985, 4053, 5503, 7348, 1585]
+[D 190822 13:38:12 joint-classifier:91] Test Utterance: [8636, 5307, 94, 10286, 8582, 1077, 8436, 1585]
+[D 190822 13:38:12 joint-classifier:92] Train Slots: [41, 23, 23, 23, 8, 23, 47, 23, 46, 46, 46, 41]
+[D 190822 13:38:12 joint-classifier:93] Test Slots: [34, 23, 11, 11, 23, 22, 23, 34]
+[D 190822 13:38:12 joint-classifier:97] Maximum utterance lenght: 37
+[D 190822 13:38:12 joint-classifier:105] Train Utterance: [8636 4303 5503 1581 8425 2933 5149 9985 4053 5503 7348 1585    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 13:38:12 joint-classifier:106] Test Utterance: [ 8636  5307    94 10286  8582  1077  8436  1585     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 13:38:12 joint-classifier:107] Train Slots: [41 23 23 23  8 23 47 23 46 46 46 41  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:38:12 joint-classifier:108] Test Slots: [34 23 11 11 23 22 23 34  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:38:17 joint-classifier:128] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 13:45:57 joint-classifier:29] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 13:45:57 joint-classifier:30] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 13:45:57 joint-classifier:31] Learning Rate: 0.001 
+[D 190822 13:45:57 joint-classifier:32] Batch Size: 128 
+[D 190822 13:45:57 joint-classifier:33] Epochs: 10 
+[D 190822 13:45:57 joint-classifier:93] Train Utterance: [2948, 7310, 6869, 4018, 8035, 6250, 5057, 787, 5431, 6869, 1644, 10318]
+[D 190822 13:45:57 joint-classifier:94] Test Utterance: [2948, 3799, 7399, 9932, 7980, 2962, 4093, 10318]
+[D 190822 13:45:57 joint-classifier:95] Train Slots: [30, 45, 45, 45, 13, 45, 42, 45, 34, 34, 34, 30]
+[D 190822 13:45:57 joint-classifier:96] Test Slots: [4, 45, 11, 11, 45, 44, 45, 4]
+[D 190822 13:45:57 joint-classifier:100] Maximum utterance lenght: 37
+[D 190822 13:45:57 joint-classifier:108] Train Utterance: [ 2948  7310  6869  4018  8035  6250  5057   787  5431  6869  1644 10318
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 13:45:57 joint-classifier:109] Test Utterance: [ 2948  3799  7399  9932  7980  2962  4093 10318     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0]
+[D 190822 13:45:57 joint-classifier:110] Train Slots: [30 45 45 45 13 45 42 45 34 34 34 30  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:45:57 joint-classifier:111] Test Slots: [ 4 45 11 11 45 44 45  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 13:46:01 joint-classifier:131] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 1. 0. 0.]
+     [0. 0. 0. ... 1. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[D 190822 14:01:47 joint-classifier:29] DataPath: TrainingData/Joint/FrontBack/train_slot_label.tsv 
+[D 190822 14:01:47 joint-classifier:30] DataPath: TrainingData/Joint/FrontBack/train_slot_Utt.tsv 
+[D 190822 14:01:47 joint-classifier:31] Learning Rate: 0.001 
+[D 190822 14:01:47 joint-classifier:32] Batch Size: 128 
+[D 190822 14:01:47 joint-classifier:33] Epochs: 10 
+[D 190822 14:01:47 joint-classifier:93] Train Utterance: [3800, 5624, 1755, 896, 3729, 5212, 3354, 9503, 831, 1755, 5639, 7278]
+[D 190822 14:01:47 joint-classifier:94] Test Utterance: [3800, 9036, 7694, 4556, 1456, 7497, 5222, 7278]
+[D 190822 14:01:47 joint-classifier:95] Train Slots: [17, 25, 25, 25, 2, 25, 35, 25, 18, 18, 18, 17]
+[D 190822 14:01:47 joint-classifier:96] Test Slots: [13, 25, 47, 47, 25, 24, 25, 13]
+[D 190822 14:01:47 joint-classifier:100] Maximum utterance lenght: 37
+[D 190822 14:01:48 joint-classifier:108] Train Utterance: [3800 5624 1755  896 3729 5212 3354 9503  831 1755 5639 7278    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 14:01:48 joint-classifier:109] Test Utterance: [3800 9036 7694 4556 1456 7497 5222 7278    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0]
+[D 190822 14:01:48 joint-classifier:110] Train Slots: [17 25 25 25  2 25 35 25 18 18 18 17  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:01:48 joint-classifier:111] Test Slots: [13 25 47 47 25 24 25 13  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:01:52 joint-classifier:131] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:13:45 joint-classifier:32] ----Start of Program----
+[D 190822 14:13:45 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:13:45 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:13:45 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:13:45 joint-classifier:36] Batch Size: 128 
+[D 190822 14:13:45 joint-classifier:37] Epochs: 10 
+[D 190822 14:13:45 joint-classifier:97] Train Utterance: [2281, 1030, 5466, 9773, 7899, 428, 1858, 5185, 5363, 5466, 6617]
+[D 190822 14:13:45 joint-classifier:98] Test Utterance: [2281, 6396, 8309, 6858, 7318, 1459, 9531]
+[D 190822 14:13:45 joint-classifier:99] Train Slots: [25, 21, 21, 21, 33, 21, 38, 21, 30, 30, 30]
+[D 190822 14:13:45 joint-classifier:100] Test Slots: [17, 21, 46, 46, 21, 24, 21]
+[D 190822 14:13:45 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:13:45 joint-classifier:112] Train Utterance: [2281 1030 5466 9773 7899  428 1858 5185 5363 5466 6617    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:13:45 joint-classifier:113] Test Utterance: [2281 6396 8309 6858 7318 1459 9531    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:13:45 joint-classifier:114] Train Slots: [25 21 21 21 33 21 38 21 30 30 30  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:13:45 joint-classifier:115] Test Slots: [17 21 46 46 21 24 21  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:13:49 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:15:19 joint-classifier:145] Accuracy: 0.9370648179454681 
+[I 190822 14:15:20 joint-classifier:171] ----End of Programm----
+[I 190822 14:19:41 joint-classifier:32] ----Start of Program----
+[D 190822 14:19:41 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:19:41 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:19:41 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:19:41 joint-classifier:36] Batch Size: 128 
+[D 190822 14:19:41 joint-classifier:37] Epochs: 10 
+[D 190822 14:19:41 joint-classifier:97] Train Utterance: [6235, 8729, 5188, 1177, 1752, 5790, 4626, 4838, 3893, 5188, 987]
+[D 190822 14:19:41 joint-classifier:98] Test Utterance: [6235, 2121, 7110, 2835, 9402, 3577, 6500]
+[D 190822 14:19:41 joint-classifier:99] Train Slots: [3, 5, 5, 5, 10, 5, 42, 5, 35, 35, 35]
+[D 190822 14:19:41 joint-classifier:100] Test Slots: [12, 5, 26, 26, 5, 17, 5]
+[D 190822 14:19:41 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:19:41 joint-classifier:112] Train Utterance: [6235 8729 5188 1177 1752 5790 4626 4838 3893 5188  987    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:19:41 joint-classifier:113] Test Utterance: [6235 2121 7110 2835 9402 3577 6500    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:19:41 joint-classifier:114] Train Slots: [ 3  5  5  5 10  5 42  5 35 35 35  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:19:41 joint-classifier:115] Test Slots: [12  5 26 26  5 17  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:19:46 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:21:17 joint-classifier:145] Accuracy: 0.9377534873644371 
+[I 190822 14:21:18 joint-classifier:171] ----End of Programm----
+[I 190822 14:28:11 joint-classifier:32] ----Start of Program----
+[D 190822 14:28:11 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:28:11 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:28:11 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:28:11 joint-classifier:36] Batch Size: 128 
+[D 190822 14:28:11 joint-classifier:37] Epochs: 10 
+[D 190822 14:28:12 joint-classifier:97] Train Utterance: [257, 8143, 3976, 1630, 539, 9954, 696, 10035, 3413, 3976, 4406]
+[D 190822 14:28:12 joint-classifier:98] Test Utterance: [257, 5659, 7732, 2232, 9315, 2100, 6633]
+[D 190822 14:28:12 joint-classifier:99] Train Slots: [43, 29, 29, 29, 7, 29, 5, 29, 15, 15, 15]
+[D 190822 14:28:12 joint-classifier:100] Test Slots: [16, 29, 6, 6, 29, 30, 29]
+[D 190822 14:28:12 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:28:12 joint-classifier:112] Train Utterance: [  257  8143  3976  1630   539  9954   696 10035  3413  3976  4406     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0]
+[D 190822 14:28:12 joint-classifier:113] Test Utterance: [ 257 5659 7732 2232 9315 2100 6633    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:28:12 joint-classifier:114] Train Slots: [43 29 29 29  7 29  5 29 15 15 15  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:28:12 joint-classifier:115] Test Slots: [16 29  6  6 29 30 29  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:28:16 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:29:48 joint-classifier:145] Accuracy: 0.9361749913803062 
+[I 190822 14:29:48 joint-classifier:171] ----End of Programm----
+[I 190822 14:44:46 joint-classifier:32] ----Start of Program----
+[D 190822 14:44:46 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:44:46 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:44:46 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:44:46 joint-classifier:36] Batch Size: 128 
+[D 190822 14:44:46 joint-classifier:37] Epochs: 10 
+[D 190822 14:44:46 joint-classifier:97] Train Utterance: [7519, 5676, 9694, 7725, 9684, 5511, 6922, 4085, 8869, 9694, 6212]
+[D 190822 14:44:46 joint-classifier:98] Test Utterance: [7519, 4624, 2219, 8986, 862, 2992, 2686]
+[D 190822 14:44:46 joint-classifier:99] Train Slots: [32, 26, 26, 26, 17, 26, 15, 26, 39, 39, 39]
+[D 190822 14:44:46 joint-classifier:100] Test Slots: [35, 26, 36, 36, 26, 12, 26]
+[D 190822 14:44:46 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:44:46 joint-classifier:112] Train Utterance: [7519 5676 9694 7725 9684 5511 6922 4085 8869 9694 6212    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:44:46 joint-classifier:113] Test Utterance: [7519 4624 2219 8986  862 2992 2686    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:44:46 joint-classifier:114] Train Slots: [32 26 26 26 17 26 15 26 39 39 39  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:44:46 joint-classifier:115] Test Slots: [35 26 36 36 26 12 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:44:50 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:45:21 joint-classifier:32] ----Start of Program----
+[D 190822 14:45:21 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:45:21 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:45:21 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:45:21 joint-classifier:36] Batch Size: 128 
+[D 190822 14:45:21 joint-classifier:37] Epochs: 10 
+[D 190822 14:45:22 joint-classifier:97] Train Utterance: [3597, 6301, 8542, 4035, 9691, 4498, 2016, 8506, 4696, 8542, 2743]
+[D 190822 14:45:22 joint-classifier:98] Test Utterance: [3597, 7517, 1320, 3847, 2157, 2887, 8449]
+[D 190822 14:45:22 joint-classifier:99] Train Slots: [39, 23, 23, 23, 19, 23, 32, 23, 25, 25, 25]
+[D 190822 14:45:22 joint-classifier:100] Test Slots: [31, 23, 5, 5, 23, 3, 23]
+[D 190822 14:45:22 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:45:22 joint-classifier:112] Train Utterance: [3597 6301 8542 4035 9691 4498 2016 8506 4696 8542 2743    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:45:22 joint-classifier:113] Test Utterance: [3597 7517 1320 3847 2157 2887 8449    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:45:22 joint-classifier:114] Train Slots: [39 23 23 23 19 23 32 23 25 25 25  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:45:22 joint-classifier:115] Test Slots: [31 23  5  5 23  3 23  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:45:24 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:46:55 joint-classifier:145] Accuracy: 0.941384391106991 
+[I 190822 14:46:55 joint-classifier:172] ----End of Programm----
+[I 190822 14:54:31 joint-classifier:32] ----Start of Program----
+[D 190822 14:54:31 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:54:31 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:54:31 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:54:31 joint-classifier:36] Batch Size: 128 
+[D 190822 14:54:31 joint-classifier:37] Epochs: 10 
+[D 190822 14:54:31 joint-classifier:97] Train Utterance: [7690, 2779, 7523, 2653, 24, 9388, 6528, 8219, 7637, 7523, 5284]
+[D 190822 14:54:31 joint-classifier:98] Test Utterance: [7690, 2192, 147, 1050, 9806, 3299, 6303]
+[D 190822 14:54:31 joint-classifier:99] Train Slots: [31, 23, 23, 23, 19, 23, 36, 23, 33, 33, 33]
+[D 190822 14:54:31 joint-classifier:100] Test Slots: [1, 23, 41, 41, 23, 4, 23]
+[D 190822 14:54:31 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:54:31 joint-classifier:112] Train Utterance: [7690 2779 7523 2653   24 9388 6528 8219 7637 7523 5284    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:54:31 joint-classifier:113] Test Utterance: [7690 2192  147 1050 9806 3299 6303    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:54:31 joint-classifier:114] Train Slots: [31 23 23 23 19 23 36 23 33 33 33  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:54:31 joint-classifier:115] Test Slots: [ 1 23 41 41 23  4 23  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:54:35 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 14:56:06 joint-classifier:145] Accuracy: 0.9394713152657763 
+[I 190822 14:59:40 joint-classifier:32] ----Start of Program----
+[D 190822 14:59:40 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 14:59:40 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 14:59:40 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 14:59:40 joint-classifier:36] Batch Size: 128 
+[D 190822 14:59:40 joint-classifier:37] Epochs: 10 
+[D 190822 14:59:40 joint-classifier:97] Train Utterance: [5909, 9314, 9008, 4300, 9047, 3286, 2363, 9135, 5037, 9008, 5248]
+[D 190822 14:59:40 joint-classifier:98] Test Utterance: [5909, 9546, 9169, 5584, 3826, 1793, 10297]
+[D 190822 14:59:40 joint-classifier:99] Train Slots: [25, 42, 42, 42, 15, 42, 43, 42, 1, 1, 1]
+[D 190822 14:59:40 joint-classifier:100] Test Slots: [30, 42, 29, 29, 42, 38, 42]
+[D 190822 14:59:40 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 14:59:40 joint-classifier:112] Train Utterance: [5909 9314 9008 4300 9047 3286 2363 9135 5037 9008 5248    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 14:59:40 joint-classifier:113] Test Utterance: [ 5909  9546  9169  5584  3826  1793 10297     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0]
+[D 190822 14:59:40 joint-classifier:114] Train Slots: [25 42 42 42 15 42 43 42  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:59:40 joint-classifier:115] Test Slots: [30 42 29 29 42 38 42  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 14:59:44 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 15:02:28 joint-classifier:145] Accuracy: 0.9433612094839527 
+[I 190822 15:02:28 joint-classifier:172] ----End of Programm----
+[I 190822 15:04:37 joint-classifier:32] ----Start of Program----
+[D 190822 15:04:37 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 15:04:37 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 15:04:37 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 15:04:37 joint-classifier:36] Batch Size: 128 
+[D 190822 15:04:37 joint-classifier:37] Epochs: 10 
+[D 190822 15:04:37 joint-classifier:97] Train Utterance: [7817, 8180, 6698, 2679, 1792, 542, 5710, 8469, 2451, 6698, 9055]
+[D 190822 15:04:37 joint-classifier:98] Test Utterance: [7817, 9278, 3427, 1170, 3747, 5121, 10181]
+[D 190822 15:04:37 joint-classifier:99] Train Slots: [39, 13, 13, 13, 38, 13, 37, 13, 5, 5, 5]
+[D 190822 15:04:37 joint-classifier:100] Test Slots: [46, 13, 28, 28, 13, 6, 13]
+[D 190822 15:04:37 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 15:04:38 joint-classifier:112] Train Utterance: [7817 8180 6698 2679 1792  542 5710 8469 2451 6698 9055    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:04:38 joint-classifier:113] Test Utterance: [ 7817  9278  3427  1170  3747  5121 10181     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0]
+[D 190822 15:04:38 joint-classifier:114] Train Slots: [39 13 13 13 38 13 37 13  5  5  5  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:04:38 joint-classifier:115] Test Slots: [46 13 28 28 13  6 13  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:04:42 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 15:06:13 joint-classifier:145] Accuracy: 0.9414681131878012 
+[I 190822 15:06:13 joint-classifier:172] ----End of Programm----
+[I 190822 15:13:32 joint-classifier:32] ----Start of Program----
+[D 190822 15:13:32 joint-classifier:33] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 15:13:32 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 15:13:32 joint-classifier:35] Learning Rate: 0.001 
+[D 190822 15:13:32 joint-classifier:36] Batch Size: 128 
+[D 190822 15:13:32 joint-classifier:37] Epochs: 10 
+[D 190822 15:13:32 joint-classifier:97] Train Utterance: [4391, 2154, 8893, 9552, 530, 9309, 7822, 10149, 390, 8893, 6538]
+[D 190822 15:13:32 joint-classifier:98] Test Utterance: [4391, 782, 9144, 5963, 5637, 2339, 4364]
+[D 190822 15:13:32 joint-classifier:99] Train Slots: [41, 37, 37, 37, 46, 37, 19, 37, 39, 39, 39]
+[D 190822 15:13:32 joint-classifier:100] Test Slots: [12, 37, 2, 2, 37, 33, 37]
+[D 190822 15:13:32 joint-classifier:104] Maximum utterance lenght: 36
+[D 190822 15:13:32 joint-classifier:112] Train Utterance: [ 4391  2154  8893  9552   530  9309  7822 10149   390  8893  6538     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0]
+[D 190822 15:13:32 joint-classifier:113] Test Utterance: [4391  782 9144 5963 5637 2339 4364    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:13:32 joint-classifier:114] Train Slots: [41 37 37 37 46 37 19 37 39 39 39  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:13:32 joint-classifier:115] Test Slots: [12 37  2  2 37 33 37  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:13:36 joint-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 15:14:56 joint-classifier:145] Accuracy: 0.9683141567125821 
+[I 190822 15:14:56 joint-classifier:172] ----End of Programm----
+[I 190822 15:22:14 joint-classifier:33] ----Start of Program----
+[D 190822 15:22:14 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 15:22:14 joint-classifier:35] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 15:22:14 joint-classifier:36] Learning Rate: 0.001 
+[D 190822 15:22:14 joint-classifier:37] Batch Size: 128 
+[D 190822 15:22:14 joint-classifier:38] Epochs: 10 
+[D 190822 15:22:14 joint-classifier:98] Train Utterance: [3959, 1592, 7137, 3645, 2550, 9759, 6161, 4558, 5514, 7137, 2500]
+[D 190822 15:22:14 joint-classifier:99] Test Utterance: [3959, 9577, 7449, 1857, 439, 2094, 5006]
+[D 190822 15:22:14 joint-classifier:100] Train Slots: [10, 32, 32, 32, 34, 32, 2, 32, 24, 24, 24]
+[D 190822 15:22:14 joint-classifier:101] Test Slots: [30, 32, 45, 45, 32, 14, 32]
+[D 190822 15:22:14 joint-classifier:105] Maximum utterance lenght: 36
+[D 190822 15:22:15 joint-classifier:113] Train Utterance: [3959 1592 7137 3645 2550 9759 6161 4558 5514 7137 2500    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:22:15 joint-classifier:114] Test Utterance: [3959 9577 7449 1857  439 2094 5006    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:22:15 joint-classifier:115] Train Slots: [10 32 32 32 34 32  2 32 24 24 24  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:22:15 joint-classifier:116] Test Slots: [30 32 45 45 32 14 32  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:22:19 joint-classifier:136] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 15:23:29 joint-classifier:146] Accuracy: 0.9676302527694761 
+[I 190822 15:23:29 joint-classifier:173] ----End of Programm----
+[I 190822 15:29:32 joint-classifier:33] ----Start of Program----
+[D 190822 15:29:32 joint-classifier:34] DataPath: TrainingData/Joint/Front/train_slot_label.tsv 
+[D 190822 15:29:32 joint-classifier:35] DataPath: TrainingData/Joint/Front/train_slot_Utt.tsv 
+[D 190822 15:29:32 joint-classifier:36] Learning Rate: 0.001 
+[D 190822 15:29:32 joint-classifier:37] Batch Size: 128 
+[D 190822 15:29:32 joint-classifier:38] Epochs: 10 
+[D 190822 15:29:32 joint-classifier:98] Train Utterance: [1949, 362, 4119, 1220, 3497, 3329, 5934, 8896, 6674, 4119, 8090]
+[D 190822 15:29:32 joint-classifier:99] Test Utterance: [1949, 9948, 4875, 8936, 5831, 9792, 2]
+[D 190822 15:29:32 joint-classifier:100] Train Slots: [27, 9, 9, 9, 20, 9, 17, 9, 37, 37, 37]
+[D 190822 15:29:32 joint-classifier:101] Test Slots: [35, 9, 23, 23, 9, 2, 9]
+[D 190822 15:29:32 joint-classifier:105] Maximum utterance lenght: 36
+[D 190822 15:29:32 joint-classifier:113] Train Utterance: [1949  362 4119 1220 3497 3329 5934 8896 6674 4119 8090    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:29:32 joint-classifier:114] Test Utterance: [1949 9948 4875 8936 5831 9792    2    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0]
+[D 190822 15:29:32 joint-classifier:115] Train Slots: [27  9  9  9 20  9 17  9 37 37 37  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:29:32 joint-classifier:116] Test Slots: [35  9 23 23  9  2  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0  0]
+[D 190822 15:29:37 joint-classifier:136] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190822 15:30:57 joint-classifier:146] Accuracy: 0.932484000914698 
+[I 190822 15:30:57 joint-classifier:173] ----End of Programm----

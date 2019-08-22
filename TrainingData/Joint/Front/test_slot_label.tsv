@@ -1,0 +1,700 @@
+AddToPlaylist	NULL	NULL	NULL	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	playlist	playlist	NULL	playlist_owner	entity_name	entity_name	entity_name	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	NULL	NULL	artist	artist	NULL	NULL	playlist	playlist	NULL	playlist_owner	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	playlist	NULL	NULL	NULL	NULL	artist	artist	music_item	NULL
+AddToPlaylist	NULL	NULL	NULL	artist	artist	NULL	playlist_owner	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	NULL	artist	artist	NULL	music_item	NULL	NULL	NULL	NULL	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	entity_name	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	artist	NULL	playlist_owner	playlist	playlist	playlist	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	playlist	playlist	playlist	NULL	NULL	artist	artist	NULL	playlist_owner	NULL	NULL
+AddToPlaylist	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL	NULL	NULL	NULL	music_item	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	NULL	playlist	playlist	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	artist	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	artist	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	NULL	playlist	playlist	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	artist	NULL	NULL	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	artist	artist	NULL	playlist_owner	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	music_item	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	NULL	NULL	artist	artist	NULL	playlist_owner	playlist	NULL
+AddToPlaylist	NULL	artist	artist	music_item	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	NULL	NULL	playlist	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	music_item	NULL	playlist_owner	NULL	NULL	playlist	playlist
+AddToPlaylist	NULL	NULL	NULL	NULL	music_item	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist
+AddToPlaylist	NULL	NULL	artist	artist	music_item	NULL	NULL	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	artist	artist	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	artist	artist	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	music_item	artist	artist	artist	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	artist	artist	NULL	playlist_owner	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	playlist_owner	playlist	playlist	NULL	NULL	NULL	artist	artist	NULL
+AddToPlaylist	NULL	NULL	artist	artist	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	NULL	NULL	NULL	playlist	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	NULL	playlist_owner	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	artist	artist	NULL	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	music_item	NULL	NULL	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	artist	artist	music_item	NULL	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	NULL
+AddToPlaylist	NULL	entity_name	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	music_item	NULL	artist	artist	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	entity_name	entity_name	entity_name	entity_name	NULL	playlist_owner	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	artist	artist	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	artist	artist	music_item	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist	playlist	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	NULL	NULL	NULL	playlist_owner	playlist	playlist	playlist	NULL	NULL	NULL	NULL	artist	artist
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	entity_name	entity_name	entity_name	entity_name	NULL	NULL	NULL	NULL	NULL	playlist_owner	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	artist	artist	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	NULL	NULL	playlist	playlist	playlist
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	playlist
+AddToPlaylist	NULL	entity_name	entity_name	entity_name	entity_name	entity_name	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+AddToPlaylist	NULL	artist	artist	artist	NULL	playlist_owner	playlist	playlist	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	NULL	playlist	playlist	NULL
+AddToPlaylist	NULL	NULL	music_item	NULL	playlist_owner	playlist	playlist	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	spatial_relation	NULL	current_location	NULL
+GetWeather	NULL	NULL	NULL	condition_description	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	city
+GetWeather	NULL	NULL	NULL	condition_description	timeRange	NULL	state	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	timeRange	timeRange	NULL	country
+GetWeather	NULL	NULL	NULL	NULL	condition_temperature	current_location
+GetWeather	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	timeRange	NULL	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	country	timeRange	timeRange	timeRange	timeRange	NULL
+GetWeather	condition_description	NULL	city	state	state
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	state	NULL
+GetWeather	condition_description	spatial_relation	spatial_relation	NULL	city	city	NULL	timeRange	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	state	NULL	city	NULL	NULL	condition_description
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	state	state	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	timeRange	timeRange	spatial_relation	NULL	NULL	NULL	state
+GetWeather	NULL	NULL	NULL	condition_description	NULL	timeRange	NULL	city	country	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	state	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	country	country	NULL	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	spatial_relation	NULL	current_location	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	geographic_poi	NULL
+GetWeather	NULL	NULL	NULL	condition_description	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	condition_description	timeRange	timeRange	timeRange	timeRange	NULL	city	city	NULL	state
+GetWeather	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	timeRange	timeRange	spatial_relation	country	country	country	country	NULL
+GetWeather	NULL	NULL	NULL	condition_description	NULL	timeRange	NULL	country
+GetWeather	NULL	NULL	NULL	condition_temperature	current_location	timeRange	timeRange	timeRange	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	city	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	city	NULL	timeRange	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	state	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	timeRange	NULL	country	NULL	NULL	NULL	NULL	city	city
+GetWeather	NULL	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	timeRange	timeRange	timeRange	NULL	spatial_relation	spatial_relation	spatial_relation	spatial_relation
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	spatial_relation	country	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	city	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	timeRange	NULL	city	city	city	country	country	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	state	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	city	state
+GetWeather	NULL	NULL	timeRange	NULL	state
+GetWeather	NULL	NULL	NULL	NULL	NULL	spatial_relation	spatial_relation	NULL	current_location	NULL	timeRange	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	city	NULL	country
+GetWeather	NULL	NULL	NULL	NULL	NULL	current_location
+GetWeather	NULL	NULL	NULL	NULL	NULL	spatial_relation	city
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	NULL	city	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	timeRange	timeRange	timeRange	timeRange	NULL	city	state
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	country
+GetWeather	NULL	NULL	NULL	NULL	city	city	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	state	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	condition_description	NULL	NULL	timeRange	timeRange	timeRange	NULL	city	NULL	country
+GetWeather	NULL	NULL	NULL	NULL	current_location
+GetWeather	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	timeRange	timeRange	NULL	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	state	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	state	NULL	condition_temperature
+GetWeather	NULL	condition_temperature	NULL	NULL	NULL	current_location	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	condition_temperature	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi
+GetWeather	NULL	NULL	NULL	condition_description	NULL	NULL	NULL	current_location	current_location	NULL	NULL	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	country	NULL	city	city	NULL	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	condition_description	NULL	NULL	NULL	current_location	current_location	NULL	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	city	NULL	spatial_relation
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	city	state	timeRange	timeRange	timeRange	timeRange	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	spatial_relation	spatial_relation	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	city
+GetWeather	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	city	country	country	country	country
+GetWeather	NULL	NULL	NULL	NULL	condition_description	timeRange	timeRange	NULL	city	NULL	state
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	NULL	state	state	state	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	current_location	NULL	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	condition_temperature	NULL	NULL	NULL	timeRange	timeRange	current_location
+GetWeather	NULL	NULL	NULL	NULL	NULL	city	NULL	state	state
+GetWeather	NULL	NULL	NULL	NULL	NULL	current_location	NULL	condition_description	NULL	NULL	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	condition_description	NULL	city	NULL	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	NULL	NULL	current_location	current_location	NULL	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	city	city	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	timeRange	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	geographic_poi	geographic_poi	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	city	NULL	state	NULL	NULL	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	state	state	NULL	city
+GetWeather	NULL	NULL	NULL	NULL	NULL	country	country
+GetWeather	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	NULL	NULL	NULL	NULL	NULL	NULL	condition_description	NULL
+GetWeather	NULL	NULL	city	country	NULL	timeRange
+GetWeather	NULL	NULL	condition_description	current_location	NULL	timeRange	NULL
+GetWeather	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi	geographic_poi	NULL	spatial_relation	NULL	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	city	NULL	condition_temperature	NULL
+GetWeather	condition_description	NULL	timeRange	timeRange	NULL	geographic_poi	geographic_poi	geographic_poi	NULL	spatial_relation	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	city
+GetWeather	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	geographic_poi
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	state	NULL	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	geographic_poi	geographic_poi
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	state	NULL	timeRange	timeRange	NULL
+GetWeather	NULL	timeRange	timeRange	timeRange	NULL	country
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	NULL	condition_description	NULL	NULL	city	country
+GetWeather	NULL	NULL	NULL	current_location	NULL	timeRange	timeRange
+GetWeather	NULL	geographic_poi	geographic_poi	geographic_poi	NULL	condition_temperature	NULL	timeRange	timeRange
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	city	city	NULL	condition_temperature	NULL
+GetWeather	NULL	NULL	NULL	NULL	city	city	NULL
+GetWeather	NULL	NULL	NULL	condition_description	NULL	NULL	timeRange	timeRange	timeRange	timeRange	NULL	country	country
+GetWeather	NULL	NULL	NULL	NULL	NULL	current_location
+GetWeather	NULL	NULL	NULL	NULL	condition_description	NULL	state	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	condition_temperature	NULL	NULL	NULL	spatial_relation	spatial_relation	NULL	state	NULL	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	timeRange	NULL	city	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	geographic_poi	geographic_poi	NULL	timeRange	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	NULL	condition_description	NULL	city	NULL
+GetWeather	NULL	NULL	NULL	condition_temperature	NULL	NULL	country	NULL	timeRange	timeRange	NULL
+GetWeather	NULL	NULL	country	NULL
+GetWeather	NULL	NULL	NULL	NULL	NULL	NULL	city	city	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	NULL	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_type	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	NULL	NULL	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	object_type	object_type	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_type	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_type	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_type	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_type	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_type	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	NULL	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	object_type	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	NULL	NULL	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_type	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	NULL	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name
+SearchCreativeWork	NULL	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	object_type	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name
+SearchCreativeWork	NULL	NULL	object_type	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	object_type	object_type	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	object_type	object_name	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	NULL	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_type	object_type	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL	NULL	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	object_type	NULL
+SearchCreativeWork	NULL	NULL	NULL	NULL	NULL	object_name	object_name	NULL
+SearchCreativeWork	NULL	NULL	NULL	object_type	object_name	object_name
+PlayMusic	NULL	NULL	NULL	NULL	album	album	album	NULL	artist	artist
+PlayMusic	NULL	album	album	album	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	music_item	NULL	service	service	NULL	artist	artist	NULL
+PlayMusic	NULL	service	service	NULL	NULL	NULL
+PlayMusic	NULL	NULL	NULL	sort	NULL	artist	NULL	NULL	music_item	NULL	year	NULL	service	NULL	NULL
+PlayMusic	NULL	NULL	music_item	NULL	year	NULL
+PlayMusic	NULL	NULL	NULL	NULL	sort	NULL	NULL	artist	artist
+PlayMusic	NULL	NULL	playlist	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	NULL	service
+PlayMusic	NULL	album	album	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	year	music_item	music_item	NULL
+PlayMusic	NULL	NULL	artist	artist	music_item
+PlayMusic	NULL	NULL	NULL	NULL	artist	artist	NULL	NULL	NULL	sort	sort
+PlayMusic	NULL	NULL	NULL	playlist	NULL	service
+PlayMusic	NULL	NULL	NULL	year	NULL	artist	artist	NULL	service
+PlayMusic	NULL	year	NULL	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	artist	artist	NULL	NULL	NULL	NULL	sort
+PlayMusic	NULL	NULL	artist	artist	NULL	NULL	NULL	year
+PlayMusic	NULL	NULL	NULL	service	NULL
+PlayMusic	year	NULL	NULL	service
+PlayMusic	NULL	service	NULL	NULL	artist	artist	album	album	album
+PlayMusic	NULL	NULL	music_item	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	music_item	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	NULL	NULL	service
+PlayMusic	NULL	NULL	NULL	NULL	service
+PlayMusic	NULL	playlist	playlist	NULL	service	NULL
+PlayMusic	NULL	NULL	NULL	NULL	music_item	NULL	service	NULL	year	NULL	artist	artist
+PlayMusic	NULL	track	track	track	track	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	NULL	artist	artist	NULL	NULL	year
+PlayMusic	NULL	NULL	service	service
+PlayMusic	NULL	NULL	music_item	NULL	artist	artist	NULL
+PlayMusic	NULL	track	track	NULL	artist
+PlayMusic	NULL	NULL	artist	artist	artist	artist	NULL	NULL	year	NULL	service	service
+PlayMusic	NULL	NULL	NULL	NULL	NULL	NULL	music_item	NULL	year	NULL
+PlayMusic	NULL	artist	artist
+PlayMusic	NULL	album	album	music_item
+PlayMusic	NULL	music_item	NULL	NULL	year	NULL
+PlayMusic	NULL	NULL	NULL	playlist	playlist	playlist	playlist
+PlayMusic	NULL	track	track	track	track	track	NULL	artist	NULL	service	service	NULL
+PlayMusic	NULL	music_item	NULL	artist	artist	NULL	service
+PlayMusic	NULL	NULL	year	NULL	NULL	service	service
+PlayMusic	NULL	NULL	year	music_item	NULL	artist	artist	NULL	service	service	NULL
+PlayMusic	NULL	NULL	NULL	playlist	NULL
+PlayMusic	NULL	service	NULL	NULL	album	album	album	album	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	artist	artist	NULL	album	NULL	service	service
+PlayMusic	NULL	NULL	year	music_item
+PlayMusic	NULL	playlist	playlist	playlist	playlist	NULL	service	NULL
+PlayMusic	album	album	album	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	sort	artist	artist	NULL	service
+PlayMusic	NULL	NULL	year	artist	artist
+PlayMusic	NULL	NULL	sort	sort	artist
+PlayMusic	NULL	NULL	NULL	artist	NULL
+PlayMusic	NULL	NULL	NULL	artist	artist	NULL	service	service	NULL
+PlayMusic	NULL	NULL	artist	artist	music_item
+PlayMusic	NULL	NULL	NULL	NULL	artist	artist	NULL	service	NULL	NULL	NULL	music_item	track	track	track	track	NULL
+PlayMusic	NULL	NULL	music_item	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	NULL	service	NULL	NULL	artist	artist	sort	music_item
+PlayMusic	NULL	NULL	NULL	NULL	music_item	NULL	NULL	NULL	artist
+PlayMusic	NULL	music_item	music_item	NULL	NULL	NULL	year
+PlayMusic	NULL	track	track	track	track	NULL	artist	artist
+PlayMusic	NULL	NULL	NULL	year	NULL
+PlayMusic	NULL	NULL	service	NULL	NULL	album	album	NULL	artist	artist
+PlayMusic	NULL	album	album	NULL	NULL	artist	artist	NULL	service	NULL
+PlayMusic	NULL	NULL	music_item	NULL	NULL	year
+PlayMusic	NULL	music_item	NULL	artist	artist	NULL	sort	NULL
+PlayMusic	NULL	NULL	sort	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	service	service
+PlayMusic	NULL	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	artist	artist	artist
+PlayMusic	NULL	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	sort	service	NULL	artist	NULL
+PlayMusic	NULL	NULL	sort	artist	artist	music_item
+PlayMusic	NULL	NULL	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	music_item	NULL	NULL	year	NULL	artist	artist	NULL
+PlayMusic	NULL	album	album	NULL	artist	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	NULL	NULL	artist	artist	artist	NULL	service	service	NULL
+PlayMusic	NULL	NULL	sort	artist
+PlayMusic	NULL	NULL	NULL	artist	artist	NULL	NULL	year
+PlayMusic	NULL	NULL	service	service	NULL	NULL	NULL	playlist	playlist	playlist	playlist	playlist
+PlayMusic	NULL	NULL	playlist	playlist	playlist	playlist	playlist	NULL
+PlayMusic	NULL	NULL	music_item	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	NULL	NULL	NULL	NULL	genre	genre	NULL	NULL
+PlayMusic	NULL	NULL	NULL	year	music_item	NULL
+PlayMusic	NULL	album	album	album	album	album	NULL	artist	artist	NULL	NULL	NULL
+PlayMusic	NULL	NULL	NULL	music_item	NULL	artist	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	artist	artist	NULL	service
+PlayMusic	NULL	NULL	service
+PlayMusic	NULL	genre	genre	NULL
+PlayMusic	NULL	NULL	NULL	NULL	music_item	NULL	NULL	service	NULL	artist	artist	artist
+PlayMusic	NULL	NULL	music_item	NULL	artist	artist	NULL	year
+PlayMusic	NULL	NULL	genre	genre	NULL
+PlayMusic	NULL	NULL	artist	artist	NULL	NULL	year	NULL
+PlayMusic	NULL	NULL	NULL	service
+PlayMusic	NULL	NULL	NULL	artist	artist	artist	artist	NULL
+PlayMusic	NULL	NULL	NULL	artist	artist	NULL
+PlayMusic	NULL	NULL	sort	artist	artist	NULL	service	NULL
+PlayMusic	NULL	NULL	NULL	music_item	music_item	NULL	NULL	year	NULL	NULL	service
+PlayMusic	NULL	album	album	album	NULL	artist	artist	NULL
+PlayMusic	NULL	track	track	NULL	service
+PlayMusic	NULL	playlist	playlist	NULL
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	rating_value	rating_unit	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	rating_value	rating_unit	NULL	object_name	object_name	object_name	object_name
+RateBook	NULL	object_select	object_type	NULL	NULL	NULL	rating_value
+RateBook	NULL	NULL	object_select	object_part_of_series_type	rating_value	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	rating_value	NULL	NULL	best_rating	rating_unit	NULL	object_name	object_name	object_name	object_part_of_series_type
+RateBook	NULL	rating_value	rating_unit	NULL	NULL	best_rating	NULL	object_name	object_name
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	NULL	rating_value
+RateBook	NULL	NULL	object_select	object_part_of_series_type	rating_value	rating_unit	NULL
+RateBook	NULL	object_select	object_type	NULL	rating_value	NULL	NULL	best_rating
+RateBook	NULL	NULL	object_select	object_type	rating_value	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	NULL	rating_value
+RateBook	NULL	rating_value	NULL	NULL	best_rating	NULL	NULL	object_select	object_type
+RateBook	NULL	object_select	object_type	rating_value	rating_unit	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_part_of_series_type	rating_value	rating_unit	NULL
+RateBook	NULL	NULL	object_select	object_type	rating_value	rating_unit	NULL
+RateBook	NULL	NULL	object_select	object_type	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	rating_value	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating
+RateBook	NULL	NULL	object_name	object_part_of_series_type	rating_value	rating_unit	NULL
+RateBook	object_name	object_name	object_name	object_name	object_name	object_part_of_series_type	NULL	rating_value	rating_unit	NULL	NULL	best_rating	NULL	NULL	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	NULL	rating_value	NULL	NULL	best_rating	NULL
+RateBook	object_name	object_name	object_name	NULL	NULL	NULL	rating_value
+RateBook	NULL	rating_value	rating_unit	NULL	object_select	object_type
+RateBook	NULL	NULL	object_select	object_type	NULL	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	NULL	object_type	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating
+RateBook	NULL	object_name	object_name	rating_value	NULL	NULL	best_rating
+RateBook	NULL	NULL	object_part_of_series_type	object_select	rating_value	NULL
+RateBook	NULL	object_select	object_type	NULL	NULL	NULL	rating_value
+RateBook	NULL	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating
+RateBook	NULL	NULL	object_select	object_type	NULL	rating_value
+RateBook	NULL	object_name	object_name	object_name	object_name	rating_value	rating_unit	NULL
+RateBook	NULL	object_select	object_select	object_type	rating_value	NULL	NULL	best_rating	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	NULL	rating_value	NULL	NULL	best_rating	NULL
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	NULL	object_select	object_type	rating_value	rating_unit
+RateBook	NULL	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_select	object_type	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	NULL	object_select	object_type	rating_value	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	rating_value	rating_unit	NULL
+RateBook	NULL	rating_value	NULL	NULL	best_rating	rating_unit	NULL	object_select	object_type
+RateBook	NULL	NULL	NULL	NULL	rating_value	NULL	object_name	NULL
+RateBook	NULL	object_name	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	rating_value	rating_unit	NULL	NULL	best_rating
+RateBook	NULL	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	rating_value	rating_unit	NULL	object_name	object_name	object_name
+RateBook	NULL	NULL	object_select	object_type	NULL	rating_value	NULL	best_rating
+RateBook	NULL	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	NULL	object_select	object_part_of_series_type	NULL	rating_value
+RateBook	NULL	rating_value	NULL	best_rating	rating_unit	NULL	object_name	object_name	object_name	object_name	object_name	object_name
+RateBook	NULL	rating_value	NULL	NULL	best_rating	rating_unit	NULL	object_select	object_type
+RateBook	NULL	object_select	object_type	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	NULL
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	rating_value	NULL	best_rating	rating_unit
+RateBook	NULL	object_select	object_type	NULL	rating_value	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	rating_value	rating_unit	NULL
+RateBook	NULL	NULL	object_select	object_type	NULL	NULL	NULL	rating_value	NULL
+RateBook	NULL	rating_value	rating_unit	NULL	object_name	object_name	object_name	object_name	object_name	object_name
+RateBook	NULL	NULL	rating_value	NULL	NULL	object_name	object_name	object_name	NULL
+RateBook	NULL	object_select	object_part_of_series_type	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	NULL	NULL	NULL	rating_value	rating_unit	NULL
+RateBook	NULL	object_select	object_part_of_series_type	rating_value	NULL	NULL	best_rating	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	object_name	rating_value	NULL	NULL	best_rating
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	NULL	rating_value	NULL	NULL	best_rating
+RateBook	NULL	rating_value	NULL	NULL	NULL	object_select	object_type
+RateBook	NULL	object_select	object_part_of_series_type	NULL	rating_value	NULL
+RateBook	NULL	object_select	object_type	NULL	rating_value
+RateBook	NULL	NULL	best_rating	NULL	NULL	object_name	object_name	object_name	NULL	rating_value
+RateBook	NULL	rating_value	NULL	best_rating	rating_unit	NULL	object_name	object_name
+RateBook	NULL	object_name	object_name	object_name	object_part_of_series_type	NULL	rating_value
+RateBook	NULL	object_name	object_name	object_name	object_name	NULL	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	NULL	NULL	object_name	object_name	object_name	object_name	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	rating_value	NULL	NULL	object_name	object_name	object_name	object_name	object_name	object_name
+RateBook	NULL	rating_value	NULL	NULL	best_rating	NULL	NULL	NULL	object_select	object_type
+RateBook	NULL	NULL	object_select	object_part_of_series_type	rating_value	NULL	best_rating	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	NULL	rating_value
+RateBook	NULL	object_select	object_type	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	object_name	object_name	NULL	rating_value	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	object_name	NULL	rating_value	NULL	NULL	best_rating	rating_unit	NULL
+RateBook	NULL	object_select	object_type	NULL	rating_value	NULL
+RateBook	NULL	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating
+RateBook	NULL	object_select	object_type	rating_value	NULL	NULL	best_rating	rating_unit
+RateBook	NULL	object_name	object_name	object_name	rating_value	rating_unit
+RateBook	NULL	object_select	object_part_of_series_type	rating_value	NULL	NULL	best_rating	NULL
+RateBook	NULL	object_name	object_name	object_name	object_name	object_name	NULL	NULL	NULL	rating_value	rating_unit	NULL
+RateBook	NULL	object_select	object_type	rating_value	rating_unit	NULL	NULL	best_rating
+RateBook	NULL	NULL	object_name	object_name	rating_value	NULL	NULL	best_rating
+RateBook	NULL	rating_value	rating_unit	NULL	object_name	object_name	object_name
+RateBook	NULL	NULL	object_select	object_part_of_series_type	rating_value	rating_unit
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	NULL	NULL	timeRange	timeRange	NULL
+SearchScreeningEvent	NULL	NULL	object_type	object_type
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL	NULL	NULL	object_location_type
+SearchScreeningEvent	NULL	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL	timeRange	timeRange	timeRange
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL	NULL	spatial_relation	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	NULL	NULL	NULL	NULL	object_location_type	object_location_type	NULL	movie_name	movie_name	movie_name	spatial_relation	NULL	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	NULL	NULL	NULL	NULL
+SearchScreeningEvent	NULL	NULL	object_type	NULL	movie_name	movie_name	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	NULL	NULL	NULL	location_name
+SearchScreeningEvent	NULL	NULL	NULL	movie_type	NULL	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL	timeRange	timeRange	timeRange	timeRange	timeRange
+SearchScreeningEvent	NULL	NULL	movie_type	movie_type	spatial_relation	spatial_relation	spatial_relation	NULL	timeRange	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	object_location_type	object_location_type
+SearchScreeningEvent	NULL	NULL	NULL	movie_name	movie_name	movie_name	timeRange	timeRange	timeRange
+SearchScreeningEvent	NULL	NULL	movie_type	movie_type	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	movie_type	NULL	spatial_relation	spatial_relation	spatial_relation	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL	NULL	movie_name
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	NULL	location_name	location_name	location_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL	timeRange	timeRange	timeRange	timeRange	NULL	NULL	spatial_relation	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL	movie_name	movie_name	NULL	NULL	timeRange
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	NULL	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	NULL	NULL	location_name	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	movie_type	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	movie_type	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	object_type	object_type
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	NULL	NULL	NULL	object_type	NULL	movie_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	NULL	NULL	object_type	object_type	NULL	location_name	location_name
+SearchScreeningEvent	NULL	movie_type	movie_type	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	NULL	location_name	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	movie_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	object_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL	NULL	movie_type
+SearchScreeningEvent	NULL	movie_type	NULL	NULL	timeRange	NULL	NULL	spatial_relation	object_location_type	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	NULL	location_name	location_name	object_type	object_type
+SearchScreeningEvent	NULL	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	NULL	spatial_relation	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	movie_type	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	movie_type	movie_type	NULL	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	location_name	location_name	object_type	object_type
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL	NULL	timeRange	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	object_type	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	NULL	timeRange	timeRange	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	NULL	location_name	location_name	NULL	NULL	movie_type	movie_type
+SearchScreeningEvent	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	movie_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	movie_type	NULL	NULL	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	location_name
+SearchScreeningEvent	NULL	NULL	object_type	object_type	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	NULL	NULL	movie_name	movie_name	movie_name	NULL	object_location_type	object_location_type
+SearchScreeningEvent	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name	movie_name	NULL	location_name	location_name
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	NULL	movie_type	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	movie_type	movie_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	location_name	location_name	location_name
+SearchScreeningEvent	NULL	NULL	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	movie_name	movie_name	NULL	NULL	NULL	object_location_type	object_location_type
+SearchScreeningEvent	NULL	object_type	NULL	movie_name	movie_name	movie_name	NULL	NULL	NULL	NULL	object_location_type	NULL
+SearchScreeningEvent	NULL	NULL	movie_name	movie_name	movie_name	object_type	NULL	NULL	spatial_relation	object_location_type	object_location_type
+SearchScreeningEvent	NULL	NULL	NULL	spatial_relation	spatial_relation	movie_type	movie_type	NULL
+SearchScreeningEvent	object_type	object_type	spatial_relation	spatial_relation	NULL	movie_type	movie_type
+SearchScreeningEvent	NULL	movie_type	NULL	NULL	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	object_type	spatial_relation	spatial_relation	spatial_relation	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL
+SearchScreeningEvent	NULL	movie_name	movie_name	NULL	NULL	NULL	spatial_relation	object_location_type	object_location_type	NULL	timeRange	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type
+SearchScreeningEvent	NULL	NULL	NULL	NULL	NULL	object_type	object_type
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	location_name	timeRange	timeRange	timeRange	NULL
+SearchScreeningEvent	NULL	NULL	spatial_relation	object_location_type	NULL	movie_type	NULL
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type
+SearchScreeningEvent	NULL	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	movie_type	NULL	NULL	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_location_type	NULL	movie_name	movie_name	movie_name	movie_name
+SearchScreeningEvent	NULL	NULL	NULL	object_type	object_type	NULL	movie_type	movie_type	spatial_relation	spatial_relation	spatial_relation
+SearchScreeningEvent	NULL	NULL	object_type	object_type	NULL	location_name	location_name	location_name
+SearchScreeningEvent	NULL	NULL	object_type	NULL	movie_name	movie_name	movie_name	movie_name	NULL	location_name	location_name	NULL
+SearchScreeningEvent	NULL	NULL	NULL	NULL	movie_name	movie_name	movie_name	movie_name	movie_name	NULL	NULL	object_location_type	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	spatial_relation	spatial_relation	NULL	state
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	country	NULL	NULL	spatial_relation	spatial_relation	spatial_relation	NULL	party_size_description	party_size_description	party_size_description	party_size_description
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	restaurant_type
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	cuisine	restaurant_type	NULL	country
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	city	NULL	NULL	cuisine	cuisine	restaurant_type
+BookRestaurant	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	spatial_relation	poi	poi
+BookRestaurant	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	NULL	NULL	NULL	served_dish	restaurant_type	NULL	city	city	NULL	state	NULL	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	party_size_number	NULL	NULL	country	country	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	sort	restaurant_type
+BookRestaurant	NULL	NULL	sort	NULL	NULL	country	NULL	party_size_number	NULL	NULL	NULL	restaurant_type
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	NULL	facility	NULL
+BookRestaurant	NULL	NULL	restaurant_type	NULL	NULL	cuisine	NULL	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	NULL	facility	restaurant_type	NULL	state	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	country	NULL	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	party_size_number	NULL	NULL	country	country	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	sort	sort	restaurant_type	NULL	city	state
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	NULL	city	city	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	NULL	NULL
+BookRestaurant	NULL	NULL	sort	restaurant_type	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	spatial_relation	spatial_relation	NULL	poi	poi	NULL	NULL	timeRange	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	timeRange	timeRange	timeRange	NULL	NULL	cuisine	cuisine	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	restaurant_type	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_type	NULL	served_dish
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	country
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	NULL	city	state	timeRange	NULL	NULL	NULL	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	city	city	NULL	timeRange	timeRange	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	sort	restaurant_type	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	city	NULL	state
+BookRestaurant	NULL	NULL	restaurant_name	restaurant_name	NULL	state	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	country	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	party_size_number
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	city	NULL	NULL	NULL	NULL	party_size_number
+BookRestaurant	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	NULL	restaurant_type	restaurant_type
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	cuisine	restaurant_type	NULL	country	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	spatial_relation	NULL	poi
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	restaurant_name	restaurant_name	restaurant_name	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	party_size_description	party_size_description	party_size_description	party_size_description	party_size_description	party_size_description	NULL	city	timeRange	timeRange	timeRange	timeRange	NULL
+BookRestaurant	NULL	NULL	restaurant_type	NULL	timeRange	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	NULL	facility	spatial_relation	state
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	restaurant_name	restaurant_name	restaurant_name	restaurant_name	NULL	country
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	party_size_number	NULL	country	country	NULL	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	city	timeRange	timeRange	timeRange	timeRange	NULL	party_size_number	NULL
+BookRestaurant	NULL	party_size_number	NULL	spatial_relation	city
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	state	NULL	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	NULL	state	state	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	restaurant_name	restaurant_name	restaurant_name	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	country	NULL	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	restaurant_name	NULL	city	NULL	state	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	party_size_number	timeRange	timeRange	NULL	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	timeRange	timeRange	NULL	NULL	restaurant_type	NULL	state	NULL	NULL	served_dish	served_dish
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	spatial_relation	NULL	city	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	NULL	state	NULL	party_size_number
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	NULL	party_size_number	NULL	NULL	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	sort	restaurant_type	spatial_relation	NULL	NULL	state	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	timeRange	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	restaurant_type	NULL	state
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	sort	restaurant_type	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	timeRange	NULL	party_size_number	NULL	NULL	state
+BookRestaurant	NULL	NULL	NULL	spatial_relation	poi	poi
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	city	city	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	restaurant_name	NULL	city	state
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	country	NULL	NULL	restaurant_name	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	country	country	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	cuisine	NULL	NULL	NULL	NULL	NULL	state
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	restaurant_type	restaurant_type	NULL	NULL	facility	spatial_relation	spatial_relation	spatial_relation	spatial_relation	NULL	city	NULL	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	NULL	cuisine	restaurant_type	NULL	timeRange	timeRange	NULL	state
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	state	NULL	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	NULL	NULL	restaurant_type	NULL	country	country	country
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	cuisine	restaurant_type	NULL	city
+BookRestaurant	party_size_description	party_size_description	party_size_description	party_size_description	NULL	NULL	NULL	NULL	NULL	restaurant_type	timeRange	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	restaurant_type	NULL	state
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	restaurant_type	NULL	NULL	served_dish	spatial_relation	NULL	NULL	NULL	timeRange	NULL	country	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	restaurant_type	NULL	party_size_number	NULL	NULL	NULL	country	country	country	country	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	spatial_relation	city	timeRange	timeRange	timeRange	timeRange	NULL	restaurant_name	restaurant_name	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	NULL	restaurant_type	NULL	NULL	cuisine	NULL	city	NULL	timeRange	timeRange	timeRange	timeRange
+BookRestaurant	NULL	NULL	restaurant_type	NULL	party_size_number	NULL	NULL	facility	NULL	NULL	country
+BookRestaurant	NULL	NULL	NULL	NULL	timeRange	timeRange	NULL	NULL	poi	poi	poi	poi	poi	spatial_relation	spatial_relation	spatial_relation	NULL	party_size_number
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	NULL	facility	NULL	NULL	country	NULL
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	NULL	facility	restaurant_type	spatial_relation	spatial_relation	spatial_relation	spatial_relation	NULL	state	timeRange	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	restaurant_type
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_description	party_size_description	party_size_description	party_size_description	party_size_description	NULL	restaurant_name	restaurant_name	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	city	NULL	timeRange	timeRange	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	timeRange	timeRange	NULL	NULL	restaurant_name	restaurant_name	restaurant_name
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	NULL	served_dish	served_dish	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	NULL	party_size_number	NULL	NULL	city	state	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	sort	sort	restaurant_type	NULL	NULL	NULL	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	cuisine	restaurant_type	spatial_relation	NULL	state	NULL	party_size_number	NULL	NULL	timeRange	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	city	NULL	timeRange
+BookRestaurant	NULL	NULL	NULL	party_size_number	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	restaurant_type	timeRange	timeRange	timeRange	NULL	party_size_number	NULL	NULL	city	city	state	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	city
+BookRestaurant	NULL	NULL	NULL	NULL	poi	poi	spatial_relation	spatial_relation	spatial_relation	spatial_relation	NULL	restaurant_type
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	restaurant_type	NULL	country	country	country
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	cuisine	restaurant_type	NULL	timeRange	timeRange	spatial_relation	city	NULL	party_size_number	NULL
+BookRestaurant	NULL	NULL	NULL	NULL	party_size_number	NULL	NULL	NULL	sort	restaurant_type	spatial_relation	city	timeRange	timeRange	timeRange
+BookRestaurant	NULL	NULL	NULL	NULL	NULL	city	timeRange	timeRange	timeRange	timeRange

@@ -42,6 +42,11 @@ logzero.logfile("Log/intent-logs.log", maxBytes=1e6, backupCount=5)
 logzero.loglevel(10)
 logger = logzero.logger
 
+logger.info("----Start of Program----")
+logger.debug("Learning Rate: %s ", LEARNING_RATE)
+logger.debug("Batch Size: %s ", BATCH_SIZE)
+logger.debug("Epochs: %s ", EPOCHS)
+
 def main():
     logger.info("----Start of Program----")
 

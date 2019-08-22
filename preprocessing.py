@@ -26,6 +26,7 @@ import codecs
 path_train=[]
 path_dev=[]
 path_test=[]
+
 intent_dict = {"BookRestaurant":1,
 "SearchScreeningEvent":2,
 "RateBook":3,
@@ -35,6 +36,15 @@ intent_dict = {"BookRestaurant":1,
 "SearchCreativeWork":7
 }
 
+# for utterance ending and beginning (intent)
+joint_intent_dict = {"BookRestaurant":"BookRestaurant",
+"SearchScreeningEvent":"SearchScreeningEvent",
+"RateBook":"RateBook",
+"PlayMusic":"PlayMusic",
+"AddToPlaylist":"AddToPlaylist",
+"GetWeather":"GetWeather",
+"SearchCreativeWork":"SearchCreativeWork"
+}
 
 def removeChar(str, n):
     first_part = str[:n] 
@@ -142,6 +152,76 @@ def slots(paths, slotLabel, slotUtterance):
                                 SlotLabelOutputFile.write(labels + "\n")
                                 SlotUtteranceOutputFile.write(utterance + "\n") 
 
+
+def joint_intent_slots(paths, slotLabel, slotUtterance):
+    with open(slotLabel, 'w') as SlotLabelOutputFile:
+        with open(slotUtterance, 'w') as SlotUtteranceOutputFile:
+            for path in paths: # iterate over all files
+                with open(path, 'r', encoding='ISO-8859-1') as jsonFile: 
+                    file = json.load(jsonFile)
+                    for intent in file:  # {"AddToPlaylist":[...]}
+                        # print(intent)
+                        for data in file[intent]:  # {"AddToPlaylist":[{"data": [...]}, {...}, ...]}
+                            # print(data)
+                            for key in data:
+                                # print(key)
+                                text = []
+                                entity = []
+                                for entry in data[key]:
+                                    entryText = []
+                                    if "entity" in entry: # slot "entity"
+                                        utterance = entry["text"] # part of utterances 
+
+                                        utterance = utterance.replace("\n", "")
+                                        utterance = utterance.replace("  ", " ")
+                                        textSplit = utterance.split(" ") # split at whitespace
+                                        
+                                        # "text": "Cita Romántica" has "entity": "playlist" -> text = ["Cita", "Romántica"], entity = ["playlist", "playlist"]
+                                        for i in range(0, len(textSplit)): 
+                                            entity.append(entry["entity"])
+                                        text.extend(textSplit)
+                                        # print("Text: %s", text)
+                                    else:
+                                        utterance = entry["text"]
+                                        utterance = utterance.replace("\n", "")
+                                        utterance = utterance.replace("  ", " ")
+                                        
+                                        # Problem with preceding and following whitespaces: needed to be removed
+                                        if utterance == " ":
+                                            continue
+                                        elif utterance[:1] == " ":
+                                            if utterance[-1:] == " ":
+                                                tmp = removeChar(utterance, 0)
+                                                tmp2 = removeChar(tmp, len(tmp)-1)
+                                                entryText.extend(tmp2.split(" "))
+                                            else:
+                                                tmp = removeChar(utterance, 0)
+                                                entryText.extend(tmp.split(" "))
+                                        elif utterance[-1:] == " ":
+                                            tmp = removeChar(utterance, len(utterance)-1)
+                                            entryText.extend(tmp.split(" "))
+                                        else:
+                                            entryText.extend(utterance.split(" "))
+
+                                        for i in range(0, len(entryText)):
+                                            entity.append("NULL")
+                                    
+                                    text.extend(entryText)
+
+                                #print("".join(text))
+                                utterance = "\t".join(text)
+                                labels = "\t".join(entity)
+                                
+                                utterance = utterance.replace("\n", "")
+                                utterance = utterance.replace("  ", " ")
+                                labels = labels.replace("\n", "")
+                                
+                                # SlotLabelOutputFile.write(joint_intent_dict[intent] + "\t" + labels + "\t" + joint_intent_dict[intent] + "\n") 
+                                # SlotUtteranceOutputFile.write("BOU\t" + utterance + "\tEUO\n") # BOU beginning of utterance
+
+                                SlotLabelOutputFile.write(joint_intent_dict[intent] + "\t" + labels + "\n") 
+                                SlotUtteranceOutputFile.write("BOU\t" + utterance + "\n") # BOU beginning of utterance
+
 # Will be removed in a future version
 def slotCount(path_dev, path_test, path_train):
     paths = []
@@ -181,11 +261,14 @@ def slotCount(path_dev, path_test, path_train):
             print(key, SlotDict[key]) # Slot Verteilung
         print(len(SlotDict)) # 39 entity, i.e. slot, types
 
-       
+
+joint_intent_slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")       
+joint_intent_slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")   
+joint_intent_slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")   
 #slotCount(path_dev, path_test, path_train)
-slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
-slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
-slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
+# slots(path_dev, "dev_slot_label.tsv", "dev_slot_Utt.tsv")
+# slots(path_test, "test_slot_label.tsv", "test_slot_Utt.tsv")
+# slots(path_train, "train_slot_label.tsv", "train_slot_Utt.tsv")
 # intents(path_dev, "dev.tsv")
 # intents(path_test, "test.tsv")
 # intents(path_train, "train.tsv")
