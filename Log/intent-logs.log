@@ -1,519 +1,88 @@
-[I 190812 11:35:37 slot-classifier:205] Splitting 'dev' Data
-[I 190812 11:37:36 slot-classifier:49] ----Start of Program----
-[D 190812 11:37:37 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:37:37 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:37:37 slot-classifier:157] Loading 'train' Data
-[D 190812 11:37:38 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:37:38 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:37:38 slot-classifier:142] Loading 'test' Data
-[D 190812 11:37:38 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:37:38 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:37:38 slot-classifier:128] Loading 'dev' Data
-[W 190812 11:37:38 slot-classifier:194] len train: 13931, len dev: 701, len dev: 2104
-[W 190812 11:37:38 slot-classifier:199] len all sentences: 16736
-[I 190812 11:37:38 slot-classifier:205] Splitting 'dev' Data
-[I 190812 11:39:04 slot-classifier:49] ----Start of Program----
-[D 190812 11:39:05 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:39:05 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:39:05 slot-classifier:157] Loading 'train' Data
-[D 190812 11:39:06 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:39:06 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:39:06 slot-classifier:142] Loading 'test' Data
-[D 190812 11:39:06 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 11:39:06 slot-classifier:183] Lenght SlotList: 40
-[I 190812 11:39:06 slot-classifier:128] Loading 'dev' Data
-[W 190812 11:39:06 slot-classifier:194] sentences: len train: 13931, len test: 701, len dev: 2104
-[W 190812 11:39:06 slot-classifier:195] gold: len train: 13784, len test: 700, len dev: 2100
-[W 190812 11:39:06 slot-classifier:199] len all sentences: 16736
-[I 190812 11:39:06 slot-classifier:205] Splitting 'dev' Data
-[I 190812 12:59:12 slot-classifier:49] ----Start of Program----
-[D 190812 12:59:14 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 12:59:14 slot-classifier:183] Lenght SlotList: 40
-[I 190812 12:59:14 slot-classifier:157] Loading 'train' Data
-[D 190812 12:59:14 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 12:59:14 slot-classifier:183] Lenght SlotList: 40
-[I 190812 12:59:14 slot-classifier:142] Loading 'test' Data
-[D 190812 12:59:14 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 12:59:14 slot-classifier:183] Lenght SlotList: 40
-[I 190812 12:59:14 slot-classifier:128] Loading 'dev' Data
-[W 190812 12:59:14 slot-classifier:194] sentences: len train: 13784, len test: 700, len dev: 2100
-[W 190812 12:59:14 slot-classifier:195] gold: len train: 13784, len test: 700, len dev: 2100
-[W 190812 12:59:14 slot-classifier:199] len all sentences: 16584
-[I 190812 12:59:14 slot-classifier:205] Splitting 'dev' Data
-[W 190812 12:59:14 slot-classifier:55] vocab_size: 12722
-[I 190812 12:59:14 slot-classifier:61] Loading existing embedding matrix
-[I 190812 12:59:14 slot-classifier:65] Finished Loading Embedding Matrix
-[I 190812 13:14:21 intent-classifier:49] ----Start of Program----
-[I 190812 13:14:22 intent-classifier:179] Loading 'train' Data
-[I 190812 13:14:44 intent-classifier:151] Loading 'dev' Data
-[I 190812 13:14:45 intent-classifier:123] Loading 'dev_short' Data
-[I 190812 13:20:57 intent-classifier:49] ----Start of Program----
-[I 190812 13:20:58 intent-classifier:179] Loading 'train' Data
-[I 190812 13:20:59 intent-classifier:151] Loading 'test' Data
-[I 190812 13:21:22 intent-classifier:123] Loading 'dev' Data
-[W 190812 13:21:22 intent-classifier:217] len train: 700, len dev: 13784, len dev: 2100
-[W 190812 13:21:22 intent-classifier:222] len all sentences: 16584
-[I 190812 13:21:22 intent-classifier:228] Splitting 'dev' Data
-[W 190812 13:21:22 intent-classifier:55] vocab_size: 12767
-[I 190812 13:21:22 intent-classifier:68] Creating Embedding Matrix
-[I 190812 13:23:49 slot-classifier:49] ----Start of Program----
-[D 190812 13:23:50 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:23:50 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:23:50 slot-classifier:157] Loading 'train' Data
-[D 190812 13:23:50 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:23:50 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:23:50 slot-classifier:142] Loading 'test' Data
-[D 190812 13:23:51 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:23:51 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:23:51 slot-classifier:128] Loading 'dev' Data
-[W 190812 13:23:51 slot-classifier:194] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:23:51 slot-classifier:195] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:23:51 slot-classifier:199] len all sentences: 16584
-[I 190812 13:23:51 slot-classifier:205] Splitting 'dev' Data
-[W 190812 13:23:51 slot-classifier:55] vocab_size: 12722
-[I 190812 13:23:51 slot-classifier:68] Creating Embedding Matrix
-[I 190812 13:34:23 intent-classifier:49] ----Start of Program----
-[I 190812 13:34:23 slot-classifier:49] ----Start of Program----
-[I 190812 13:34:24 intent-classifier:179] Loading 'train' Data
-[I 190812 13:34:24 intent-classifier:151] Loading 'test' Data
-[D 190812 13:34:25 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:34:25 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:34:25 slot-classifier:157] Loading 'train' Data
-[D 190812 13:34:25 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:34:25 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:34:25 slot-classifier:142] Loading 'test' Data
-[D 190812 13:34:25 slot-classifier:182] all slots: ['NULL', 'party_size_number', 'restaurant_type', 'city', 'restaurant_name', 'country', 'timeRange', 'state', 'party_size_description', 'sort', 'cuisine', 'served_dish', 'spatial_relation', 'facility', 'poi', 'geographic_poi', 'condition_description', 'condition_temperature', 'current_location', 'artist', 'service', 'track', 'year', 'genre', 'music_item', 'album', 'playlist', 'entity_name', 'playlist_owner', 'object_name', 'object_type', 'rating_value', 'object_select', 'rating_unit', 'best_rating', 'object_part_of_series_type', 'location_name', 'movie_type', 'movie_name', 'object_location_type']
-[D 190812 13:34:25 slot-classifier:183] Lenght SlotList: 40
-[I 190812 13:34:25 slot-classifier:128] Loading 'dev' Data
-[W 190812 13:34:25 slot-classifier:196] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:34:25 slot-classifier:197] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:34:25 slot-classifier:203] len all sentences: 700
-[I 190812 13:34:25 slot-classifier:209] Splitting 'dev' Data
-[W 190812 13:34:26 slot-classifier:55] vocab_size: 12722
-[I 190812 13:34:26 slot-classifier:68] Creating Embedding Matrix
-[I 190812 13:34:48 intent-classifier:123] Loading 'dev' Data
-[W 190812 13:34:49 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:34:49 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:34:49 intent-classifier:226] len all sentences: 700
-[I 190812 13:34:49 intent-classifier:232] Splitting 'dev' Data
-[W 190812 13:34:49 intent-classifier:55] vocab_size: 12767
-[I 190812 13:34:49 intent-classifier:68] Creating Embedding Matrix
-[I 190812 13:48:30 intent-classifier:49] ----Start of Program----
-[I 190812 13:48:32 intent-classifier:179] Loading 'train' Data
-[I 190812 13:48:32 intent-classifier:151] Loading 'test' Data
-[I 190812 13:48:32 slot-classifier:49] ----Start of Program----
-[I 190812 13:48:34 slot-classifier:157] Loading 'train' Data
-[I 190812 13:48:34 slot-classifier:142] Loading 'test' Data
-[I 190812 13:48:35 slot-classifier:128] Loading 'dev' Data
-[W 190812 13:48:35 slot-classifier:196] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:48:35 slot-classifier:197] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:48:35 slot-classifier:203] len all sentences: 700
-[I 190812 13:48:35 slot-classifier:209] Splitting 'dev' Data
-[W 190812 13:48:35 slot-classifier:55] vocab_size: 12722
-[I 190812 13:48:35 slot-classifier:68] Creating Embedding Matrix
-[I 190812 13:48:58 intent-classifier:123] Loading 'dev' Data
-[W 190812 13:48:59 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:48:59 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:48:59 intent-classifier:226] len all sentences: 700
-[I 190812 13:48:59 intent-classifier:232] Splitting 'dev' Data
-[W 190812 13:48:59 intent-classifier:55] vocab_size: 12767
-[I 190812 13:48:59 intent-classifier:68] Creating Embedding Matrix
-[I 190812 13:58:10 intent-classifier:49] ----Start of Program----
-[I 190812 13:58:12 intent-classifier:179] Loading 'train' Data
-[I 190812 13:58:12 intent-classifier:151] Loading 'test' Data
-[I 190812 13:58:12 slot-classifier:49] ----Start of Program----
-[I 190812 13:58:14 slot-classifier:157] Loading 'train' Data
-[I 190812 13:58:14 slot-classifier:142] Loading 'test' Data
-[I 190812 13:58:14 slot-classifier:128] Loading 'dev' Data
-[W 190812 13:58:14 slot-classifier:196] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:58:14 slot-classifier:197] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:58:14 slot-classifier:203] len all sentences: 700
-[I 190812 13:58:15 slot-classifier:209] Splitting 'dev' Data
-[W 190812 13:58:15 slot-classifier:55] vocab_size: 12722
-[I 190812 13:58:15 slot-classifier:68] Creating Embedding Matrix
-[I 190812 13:58:36 intent-classifier:123] Loading 'dev' Data
-[W 190812 13:58:36 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:58:36 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 13:58:36 intent-classifier:226] len all sentences: 700
-[I 190812 13:58:36 intent-classifier:232] Splitting 'dev' Data
-[W 190812 13:58:36 intent-classifier:55] vocab_size: 12767
-[I 190812 13:58:36 intent-classifier:68] Creating Embedding Matrix
-[I 190812 14:16:43 slot-classifier:49] ----Start of Program----
-[I 190812 14:16:43 intent-classifier:49] ----Start of Program----
-[I 190812 14:16:44 slot-classifier:157] Loading 'train' Data
-[I 190812 14:16:44 slot-classifier:142] Loading 'test' Data
-[I 190812 14:16:44 slot-classifier:128] Loading 'dev' Data
-[I 190812 14:16:44 intent-classifier:179] Loading 'train' Data
-[W 190812 14:16:44 slot-classifier:196] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 14:16:44 slot-classifier:197] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 14:16:44 slot-classifier:203] len all sentences: 700
-[I 190812 14:16:45 intent-classifier:151] Loading 'test' Data
-[I 190812 14:16:45 slot-classifier:209] Splitting 'dev' Data
-[W 190812 14:16:45 slot-classifier:55] vocab_size: 12722
-[I 190812 14:16:45 slot-classifier:68] Creating Embedding Matrix
-[I 190812 14:17:25 intent-classifier:123] Loading 'dev' Data
-[W 190812 14:17:27 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 14:17:27 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 14:17:27 intent-classifier:226] len all sentences: 700
-[I 190812 14:17:27 intent-classifier:232] Splitting 'dev' Data
-[W 190812 14:17:27 intent-classifier:55] vocab_size: 12767
-[I 190812 14:17:27 intent-classifier:68] Creating Embedding Matrix
-[I 190812 14:36:16 slot-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 14:43:41 intent-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 17:14:39 intent-classifier:49] ----Start of Program----
-[I 190812 17:16:43 intent-classifier:179] Loading 'train' Data
-[I 190812 17:16:43 intent-classifier:151] Loading 'test' Data
-[I 190812 17:17:14 intent-classifier:123] Loading 'dev' Data
-[W 190812 17:17:14 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:17:14 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:17:14 intent-classifier:226] len all sentences: 700
-[I 190812 17:17:14 intent-classifier:232] Splitting 'dev' Data
-[W 190812 17:17:14 intent-classifier:55] vocab_size: 12067
-[I 190812 17:17:14 intent-classifier:61] Loading existing embedding matrix
-[I 190812 17:17:15 intent-classifier:65] Finished Loading Embedding Matrix
-[I 190812 17:18:42 intent-classifier:49] ----Start of Program----
-[I 190812 17:18:43 intent-classifier:179] Loading 'train' Data
-[I 190812 17:18:43 intent-classifier:151] Loading 'test' Data
-[I 190812 17:19:14 intent-classifier:123] Loading 'dev' Data
-[W 190812 17:19:14 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:19:14 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:19:14 intent-classifier:226] len all sentences: 700
-[I 190812 17:19:15 intent-classifier:232] Splitting 'dev' Data
-[W 190812 17:19:15 intent-classifier:55] vocab_size: 12067
-[I 190812 17:19:15 intent-classifier:68] Creating Embedding Matrix
-[I 190812 17:34:32 intent-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 17:37:25 slot-classifier:49] ----Start of Program----
-[I 190812 17:37:26 intent-classifier:49] ----Start of Program----
-[I 190812 17:37:27 slot-classifier:157] Loading 'train' Data
-[I 190812 17:37:27 slot-classifier:142] Loading 'test' Data
-[I 190812 17:37:28 slot-classifier:128] Loading 'dev' Data
-[W 190812 17:37:28 slot-classifier:196] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 17:37:28 slot-classifier:197] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 17:37:28 slot-classifier:203] len all sentences: 700
-[I 190812 17:37:28 intent-classifier:179] Loading 'train' Data
-[I 190812 17:37:28 intent-classifier:151] Loading 'test' Data
-[I 190812 17:37:28 slot-classifier:209] Splitting 'dev' Data
-[W 190812 17:37:28 slot-classifier:55] vocab_size: 12721
-[I 190812 17:37:28 slot-classifier:68] Creating Embedding Matrix
-[I 190812 17:38:05 intent-classifier:123] Loading 'dev' Data
-[W 190812 17:38:05 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:38:05 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 71
-[W 190812 17:38:05 intent-classifier:226] len all sentences: 700
-[I 190812 17:38:05 intent-classifier:232] Splitting 'dev' Data
-[W 190812 17:38:05 intent-classifier:55] vocab_size: 12066
-[I 190812 17:38:05 intent-classifier:68] Creating Embedding Matrix
-[I 190812 18:01:53 intent-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 18:02:09 slot-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 20:13:59 intent-classifier:49] ----Start of Program----
-[I 190812 20:14:01 intent-classifier:179] Loading 'train' Data
-[I 190812 20:14:01 intent-classifier:151] Loading 'test' Data
-[I 190812 20:14:35 intent-classifier:123] Loading 'dev' Data
-[W 190812 20:14:35 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 71
-[W 190812 20:14:35 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 71
-[W 190812 20:14:35 intent-classifier:226] len all sentences: 700
-[I 190812 20:14:35 intent-classifier:232] Splitting 'dev' Data
-[W 190812 20:14:35 intent-classifier:55] vocab_size: 12067
-[I 190812 20:14:35 intent-classifier:61] Loading existing embedding matrix
-[I 190812 20:14:36 intent-classifier:65] Finished Loading Embedding Matrix
-[I 190812 20:14:36 intent-classifier:104] Compiling model
-[I 190812 20:14:36 intent-classifier:107] Model Summary: None
-[I 190812 20:14:36 intent-classifier:109] Fitting model
-[I 190812 20:14:41 intent-classifier:112] Evaluating model
-[I 190812 20:14:42 intent-classifier:114] Accuracy: 70.833331
-[I 190812 20:14:42 intent-classifier:115] ----End of Programm----
-[I 190812 20:16:00 intent-classifier:49] ----Start of Program----
-[I 190812 20:16:02 intent-classifier:179] Loading 'train' Data
-[I 190812 20:16:02 intent-classifier:151] Loading 'test' Data
-[I 190812 20:16:36 intent-classifier:123] Loading 'dev' Data
-[W 190812 20:16:36 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:16:36 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:16:36 intent-classifier:226] len all sentences: 700
-[I 190812 20:16:37 intent-classifier:232] Splitting 'dev' Data
-[W 190812 20:16:37 intent-classifier:55] vocab_size: 12767
-[I 190812 20:16:37 intent-classifier:61] Loading existing embedding matrix
-[I 190812 20:16:37 intent-classifier:65] Finished Loading Embedding Matrix
-[I 190812 20:18:53 intent-classifier:49] ----Start of Program----
-[I 190812 20:18:55 intent-classifier:179] Loading 'train' Data
-[I 190812 20:18:55 intent-classifier:151] Loading 'test' Data
-[I 190812 20:19:30 intent-classifier:123] Loading 'dev' Data
-[W 190812 20:19:30 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:19:30 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:19:30 intent-classifier:226] len all sentences: 700
-[I 190812 20:19:31 intent-classifier:232] Splitting 'dev' Data
-[W 190812 20:19:31 intent-classifier:55] vocab_size: 12767
-[I 190812 20:19:31 intent-classifier:68] Creating Embedding Matrix
-[I 190812 20:42:25 intent-classifier:92] Finished Embedding Matrix Creation, dumped it.
-[I 190812 20:43:54 intent-classifier:49] ----Start of Program----
-[I 190812 20:43:56 intent-classifier:179] Loading 'train' Data
-[I 190812 20:43:56 intent-classifier:151] Loading 'test' Data
-[I 190812 20:44:27 intent-classifier:123] Loading 'dev' Data
-[W 190812 20:44:28 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:44:28 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:44:28 intent-classifier:226] len all sentences: 700
-[I 190812 20:44:28 intent-classifier:232] Splitting 'dev' Data
-[W 190812 20:44:28 intent-classifier:55] vocab_size: 12768
-[I 190812 20:44:28 intent-classifier:61] Loading existing embedding matrix
-[I 190812 20:44:28 intent-classifier:65] Finished Loading Embedding Matrix
-[I 190812 20:44:29 intent-classifier:104] Compiling model
-[I 190812 20:44:29 intent-classifier:107] Model Summary: None
-[I 190812 20:44:29 intent-classifier:109] Fitting model
-[I 190812 20:45:57 intent-classifier:112] Evaluating model
-[I 190812 20:45:57 intent-classifier:114] Accuracy: 97.691196
-[I 190812 20:45:57 intent-classifier:115] ----End of Programm----
-[I 190812 20:48:42 intent-classifier:49] ----Start of Program----
-[I 190812 20:48:44 intent-classifier:179] Loading 'train' Data
-[I 190812 20:48:44 intent-classifier:151] Loading 'test' Data
-[I 190812 20:49:18 intent-classifier:123] Loading 'dev' Data
-[W 190812 20:49:19 intent-classifier:219] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:49:19 intent-classifier:220] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 20:49:19 intent-classifier:226] len all sentences: 700
-[I 190812 20:49:19 intent-classifier:232] Splitting 'dev' Data
-[W 190812 20:49:19 intent-classifier:55] vocab_size: 12765
-[I 190812 20:49:19 intent-classifier:68] Creating Embedding Matrix
-[I 190812 21:23:23 intent-classifier:49] ----Start of Program----
-[I 190812 21:23:25 intent-classifier:182] Loading 'train' Data
-[I 190812 21:23:25 intent-classifier:154] Loading 'test' Data
-[I 190812 21:24:04 intent-classifier:126] Loading 'dev' Data
-[W 190812 21:24:05 intent-classifier:222] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 21:24:05 intent-classifier:223] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 21:24:05 intent-classifier:229] len all sentences: 16584
-[I 190812 21:24:05 intent-classifier:235] Splitting 'dev' Data
-[W 190812 21:24:05 intent-classifier:55] vocab_size: 12765
-[I 190812 21:24:05 intent-classifier:68] Creating Embedding Matrix
-[E 190812 21:47:43 intent-classifier:84] i: 12765
-    Traceback (most recent call last):
-      File "intent-classifier.py", line 82, in main
-        embedding_matrix[i] = embedding_vector[0][1][0]
-    IndexError: index 12765 is out of bounds for axis 0 with size 12765
-[I 190812 21:47:43 intent-classifier:95] Finished Embedding Matrix Creation, dumped it.
-[I 190812 21:47:44 intent-classifier:107] Compiling model
-[I 190812 21:47:44 intent-classifier:110] Model Summary: None
-[I 190812 21:47:44 intent-classifier:112] Fitting model
-[I 190812 21:49:13 intent-classifier:115] Evaluating model
-[I 190812 21:49:14 intent-classifier:117] Accuracy: 97.258300
-[I 190812 21:49:14 intent-classifier:118] ----End of Programm----
-[I 190812 21:50:31 intent-classifier:49] ----Start of Program----
-[I 190812 21:50:32 intent-classifier:182] Loading 'train' Data
-[I 190812 21:50:32 intent-classifier:154] Loading 'test' Data
-[I 190812 21:51:04 intent-classifier:126] Loading 'dev' Data
-[W 190812 21:51:05 intent-classifier:222] sentences: len train: 700, len test: 13784, len dev: 2100
-[W 190812 21:51:05 intent-classifier:223] gold: len train: 700, len test: 13784, len dev: 2100
-[W 190812 21:51:05 intent-classifier:229] len all sentences: 16584
-[I 190812 21:51:05 intent-classifier:235] Splitting 'dev' Data
-[W 190812 21:51:05 intent-classifier:55] vocab_size: 12765
-[I 190812 21:51:05 intent-classifier:61] Loading existing embedding matrix
-[I 190812 21:51:05 intent-classifier:65] Finished Loading Embedding Matrix
-[I 190812 21:51:06 intent-classifier:107] Compiling model
-[I 190812 21:51:06 intent-classifier:110] Model Summary: None
-[I 190812 21:51:06 intent-classifier:112] Fitting model
-[I 190812 21:52:34 intent-classifier:115] Evaluating model
-[I 190812 21:52:34 intent-classifier:117] Accuracy: 97.691196
-[I 190812 21:52:34 intent-classifier:118] ----End of Programm----
-[D 190814 11:49:41 postagtest:79] Train Utterance: [1628]
-[D 190814 11:49:41 postagtest:80] Test Utterance: [1]
-[D 190814 11:49:41 postagtest:81] Train Slots: [24, 24, 24, 24, 24, 26, 24, 12, 9, 24]
-[D 190814 11:49:41 postagtest:82] Test Slots: [24, 24, 24, 2, 24, 24, 31, 31, 31, 24, 14, 14, 24]
-[D 190814 11:49:41 postagtest:87] Maximum utterance lenght: 5
-[D 190814 11:49:41 postagtest:95] Train Utterance: [1628    0    0    0    0]
-[D 190814 11:49:41 postagtest:96] Test Utterance: [1 0 0 0 0]
-[D 190814 11:49:41 postagtest:97] Train Slots: [26 24 12  9 24]
-[D 190814 11:49:41 postagtest:98] Test Slots: [31 24 14 14 24]
-[D 190814 11:49:43 postagtest:115] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 11:50:38 postagtest:79] Train Utterance: [2003]
-[D 190814 11:50:38 postagtest:80] Test Utterance: [1]
-[D 190814 11:50:38 postagtest:81] Train Slots: [23, 23, 39, 23, 38, 16, 16, 23]
-[D 190814 11:50:38 postagtest:82] Test Slots: [23, 23, 37, 12, 23, 19]
-[D 190814 11:50:38 postagtest:87] Maximum utterance lenght: 5
-[D 190814 11:50:38 postagtest:95] Train Utterance: [2003    0    0    0    0]
-[D 190814 11:50:38 postagtest:96] Test Utterance: [1 0 0 0 0]
-[D 190814 11:50:38 postagtest:97] Train Slots: [23 38 16 16 23]
-[D 190814 11:50:38 postagtest:98] Test Slots: [23 37 12 23 19]
-[D 190814 11:50:40 postagtest:115] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 11:57:23 postagtest:80] Train Utterance: [3640]
-[D 190814 11:57:23 postagtest:81] Test Utterance: [1]
-[D 190814 11:57:23 postagtest:82] Train Slots: [23, 23, 23, 23, 7, 23, 18, 39, 23, 12]
-[D 190814 11:57:23 postagtest:83] Test Slots: [23, 23, 23, 33, 33, 23, 26, 26, 26, 23]
-[D 190814 11:57:23 postagtest:88] Maximum utterance lenght: 6
-[D 190814 11:57:23 postagtest:96] Train Utterance: [3640    0    0    0    0    0]
-[D 190814 11:57:23 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 11:57:23 postagtest:98] Train Slots: [ 7 23 18 39 23 12]
-[D 190814 11:57:23 postagtest:99] Test Slots: [33 23 26 26 26 23]
-[D 190814 11:57:24 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 11:59:12 postagtest:80] Train Utterance: [1442]
-[D 190814 11:59:12 postagtest:81] Test Utterance: [1]
-[D 190814 11:59:12 postagtest:82] Train Slots: [5, 5, 5, 5, 5, 7, 6, 6, 6]
-[D 190814 11:59:12 postagtest:83] Test Slots: [5, 5, 5, 22, 7, 5, 28, 5, 20]
-[D 190814 11:59:12 postagtest:88] Maximum utterance lenght: 6
-[D 190814 11:59:12 postagtest:96] Train Utterance: [1442    0    0    0    0    0]
-[D 190814 11:59:12 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 11:59:12 postagtest:98] Train Slots: [5 5 7 6 6 6]
-[D 190814 11:59:12 postagtest:99] Test Slots: [22  7  5 28  5 20]
-[D 190814 11:59:14 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 12:01:11 postagtest:80] Train Utterance: [4686, 314]
-[D 190814 12:01:11 postagtest:81] Test Utterance: [1]
-[D 190814 12:01:11 postagtest:82] Train Slots: [29, 29, 29, 40, 29, 19, 29, 20, 20, 20]
-[D 190814 12:01:11 postagtest:83] Test Slots: [29, 1, 1, 29, 18, 29]
-[D 190814 12:01:11 postagtest:88] Maximum utterance lenght: 6
-[D 190814 12:01:12 postagtest:96] Train Utterance: [4686  314    0    0    0    0]
-[D 190814 12:01:12 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:01:12 postagtest:98] Train Slots: [29 19 29 20 20 20]
-[D 190814 12:01:12 postagtest:99] Test Slots: [29  1  1 29 18 29]
-[D 190814 12:01:13 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 12:02:13 postagtest:80] Train Utterance: [687, 8905]
-[D 190814 12:02:13 postagtest:81] Test Utterance: [1]
-[D 190814 12:02:13 postagtest:82] Train Slots: [16, 16, 16, 24, 16, 14, 16, 33, 33, 33]
-[D 190814 12:02:13 postagtest:83] Test Slots: [16, 3, 3, 16, 17, 16]
-[D 190814 12:02:13 postagtest:88] Maximum utterance lenght: 6
-[D 190814 12:02:13 postagtest:96] Train Utterance: [ 687 8905    0    0    0    0]
-[D 190814 12:02:13 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:02:13 postagtest:98] Train Slots: [16 14 16 33 33 33]
-[D 190814 12:02:13 postagtest:99] Test Slots: [16  3  3 16 17 16]
-[D 190814 12:02:15 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 12:03:23 postagtest:80] Train Utterance: [5663, 292]
-[D 190814 12:03:23 postagtest:81] Test Utterance: [1]
-[D 190814 12:03:23 postagtest:82] Train Slots: [34, 34, 34, 9, 34, 1, 34, 40, 40, 40]
-[D 190814 12:03:23 postagtest:83] Test Slots: [34, 26, 26, 34, 39, 34]
-[D 190814 12:03:23 postagtest:88] Maximum utterance lenght: 6
-[D 190814 12:03:23 postagtest:96] Train Utterance: [5663  292    0    0    0    0]
-[D 190814 12:03:23 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:03:23 postagtest:98] Train Slots: [34  1 34 40 40 40]
-[D 190814 12:03:23 postagtest:99] Test Slots: [34 26 26 34 39 34]
-[D 190814 12:03:25 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
-     [0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
-[D 190814 12:04:36 postagtest:80] Train Utterance: [6996, 1646]
-[D 190814 12:04:36 postagtest:81] Test Utterance: [1]
-[D 190814 12:04:36 postagtest:82] Train Slots: [12, 12, 12, 14, 12, 36, 12, 19, 19, 19]
-[D 190814 12:04:36 postagtest:83] Test Slots: [12, 32, 32, 12, 23, 12]
-[D 190814 12:04:36 postagtest:88] Maximum utterance lenght: 6
-[D 190814 12:04:36 postagtest:96] Train Utterance: [6996 1646    0    0    0    0]
-[D 190814 12:04:36 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:04:36 postagtest:98] Train Slots: [12 36 12 19 19 19]
-[D 190814 12:04:36 postagtest:99] Test Slots: [12 32 32 12 23 12]
-[D 190814 12:04:38 postagtest:116] Slots to categorical: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
-     [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
-      0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
-[D 190814 12:08:16 postagtest:80] Train Utterance: [2511, 9573]
-[D 190814 12:08:16 postagtest:81] Test Utterance: [1]
-[D 190814 12:08:16 postagtest:82] Train Slots: [35, 35, 35, 11, 35, 30, 35, 16, 16, 16]
-[D 190814 12:08:16 postagtest:83] Test Slots: [35, 7, 7, 35, 39, 35]
-[D 190814 12:08:16 postagtest:88] Maximum utterance lenght: 6
-[D 190814 12:08:16 postagtest:96] Train Utterance: [2511 9573    0    0    0    0]
-[D 190814 12:08:16 postagtest:97] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:08:16 postagtest:98] Train Slots: [35 30 35 16 16 16]
-[D 190814 12:08:16 postagtest:99] Test Slots: [35  7  7 35 39 35]
-[D 190814 12:09:37 postagtest:82] Train Utterance: [5417, 5767]
-[D 190814 12:09:37 postagtest:83] Test Utterance: [1]
-[D 190814 12:09:37 postagtest:84] Train Slots: [40, 40, 40, 11, 40, 27, 40, 9, 9, 9]
-[D 190814 12:09:37 postagtest:85] Test Slots: [40, 35, 35, 40, 17, 40]
-[D 190814 12:09:37 postagtest:90] Maximum utterance lenght: 6
-[D 190814 12:09:37 postagtest:98] Train Utterance: [5417 5767    0    0    0    0]
-[D 190814 12:09:37 postagtest:99] Test Utterance: [1 0 0 0 0 0]
-[D 190814 12:09:37 postagtest:100] Train Slots: [40 27 40  9  9  9]
-[D 190814 12:09:37 postagtest:101] Test Slots: [40 35 35 40 17 40]
-[D 190814 12:11:30 postagtest:80] Train Utterance: [9572, 5831, 3056, 6083, 8093, 5528, 2658, 1188, 5831, 1604]
-[D 190814 12:11:30 postagtest:81] Test Utterance: [7234, 5423, 21, 1113, 5238, 9469]
-[D 190814 12:11:30 postagtest:82] Train Slots: [26, 26, 26, 4, 26, 31, 26, 8, 8, 8]
-[D 190814 12:11:30 postagtest:83] Test Slots: [26, 18, 18, 26, 1, 26]
-[D 190814 12:11:58 postagtest:80] Train Utterance: [6766, 7026, 6774, 5576, 9124, 9557, 8970, 9761, 7026, 3919]
-[D 190814 12:11:58 postagtest:81] Test Utterance: [1618, 1075, 4841, 5898, 2156, 509]
-[D 190814 12:11:58 postagtest:82] Train Slots: [8, 8, 8, 23, 8, 21, 8, 35, 35, 35]
-[D 190814 12:11:58 postagtest:83] Test Slots: [8, 31, 31, 8, 32, 8]
-[D 190814 12:11:58 postagtest:87] Maximum utterance lenght: 35
-[D 190814 12:11:58 postagtest:95] Train Utterance: [6766 7026 6774 5576 9124 9557 8970 9761 7026 3919    0    0    0    0
-        0    0    0    0    0    0    0    0    0    0    0    0    0    0
-        0    0    0    0    0    0    0]
-[D 190814 12:11:58 postagtest:96] Test Utterance: [1618 1075 4841 5898 2156  509    0    0    0    0    0    0    0    0
-        0    0    0    0    0    0    0    0    0    0    0    0    0    0
-        0    0    0    0    0    0    0]
-[D 190814 12:11:58 postagtest:97] Train Slots: [ 8  8  8 23  8 21  8 35 35 35  0  0  0  0  0  0  0  0  0  0  0  0  0  0
-      0  0  0  0  0  0  0  0  0  0  0]
-[D 190814 12:11:58 postagtest:98] Test Slots: [ 8 31 31  8 32  8  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
-      0  0  0  0  0  0  0  0  0  0  0]
-[D 190814 12:12:01 postagtest:115] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
-     [0. 0. 0. ... 0. 0. 0.]
-     [0. 0. 0. ... 0. 0. 0.]
-     ...
-     [1. 0. 0. ... 0. 0. 0.]
-     [1. 0. 0. ... 0. 0. 0.]
-     [1. 0. 0. ... 0. 0. 0.]]
+[I 190828 13:30:07 intent-classifier:56] ----Start of Program----
+[D 190828 13:30:07 intent-classifier:57] Data Set Type: train
+[D 190828 13:30:07 intent-classifier:58] Learning Rate: 0.001 
+[D 190828 13:30:07 intent-classifier:59] Batch Size: 128 
+[D 190828 13:30:07 intent-classifier:60] Epochs: 15 
+[D 190828 13:30:07 intent-classifier:61] Embedding Size 800 
+[D 190828 13:30:07 intent-classifier:62] Trainable Embedding: True
+[I 190828 13:30:08 intent-classifier:105] Loading 'dev' Data
+[I 190828 13:30:09 intent-classifier:133] Loading 'test' Data
+[I 190828 13:30:09 intent-classifier:161] Loading 'train' Data
+[W 190828 13:30:34 intent-classifier:221] utterances: len train: 13784, len test: 700, len dev: 2100
+[W 190828 13:30:34 intent-classifier:222] gold: len train: 13784, len test: 700, len dev: 2100
+[W 190828 13:30:34 intent-classifier:223] len all utterances: 16584
+[W 190828 13:30:34 intent-classifier:224] len all labels: 16584
+[I 190828 13:30:34 intent-classifier:244] Splitting 'train' Data
+[D 190828 13:30:35 intent-classifier:71] vocab_size: 12765
+[I 190828 13:30:35 intent-classifier:83] Compiling model
+[I 190828 13:30:35 intent-classifier:86] Model Summary: None
+[I 190828 13:30:35 intent-classifier:91] Fitting model
+[I 190828 13:34:20 intent-classifier:94] Evaluating model
+[I 190828 13:34:23 intent-classifier:96] Accuracy: 98.191118
+[I 190828 13:34:23 intent-classifier:97] ----End of Programm----
+[I 190904 21:45:29 intent-classifier:56] ----Start of Program----
+[D 190904 21:45:29 intent-classifier:57] Data Set Type: train
+[D 190904 21:45:29 intent-classifier:58] Learning Rate: 0.001 
+[D 190904 21:45:29 intent-classifier:59] Batch Size: 128 
+[D 190904 21:45:29 intent-classifier:60] Epochs: 15 
+[D 190904 21:45:29 intent-classifier:61] Embedding Size 800 
+[D 190904 21:45:29 intent-classifier:62] Trainable Embedding: True
+[I 190904 21:45:34 intent-classifier:105] Loading 'dev' Data
+[I 190904 21:45:35 intent-classifier:133] Loading 'test' Data
+[I 190904 21:45:36 intent-classifier:161] Loading 'train' Data
+[W 190904 21:46:36 intent-classifier:221] utterances: len train: 13784, len test: 700, len dev: 2100
+[W 190904 21:46:36 intent-classifier:222] gold: len train: 13784, len test: 700, len dev: 2100
+[W 190904 21:46:36 intent-classifier:223] len all utterances: 16584
+[W 190904 21:46:36 intent-classifier:224] len all labels: 16584
+[I 190904 21:46:37 intent-classifier:244] Splitting 'train' Data
+[D 190904 21:46:37 intent-classifier:71] vocab_size: 12765
+[I 190904 21:46:38 intent-classifier:83] Compiling model
+[I 190904 21:46:38 intent-classifier:86] Model Summary: None
+[I 190904 21:46:38 intent-classifier:91] Fitting model
+[I 190904 21:54:56 intent-classifier:94] Evaluating model
+[I 190904 21:55:04 intent-classifier:96] Accuracy: 97.898775
+[I 190904 21:55:04 intent-classifier:97] ----End of Programm----
+[I 190904 21:55:56 intent-classifier:56] ----Start of Program----
+[D 190904 21:55:56 intent-classifier:57] Data Set Type: train
+[D 190904 21:55:56 intent-classifier:58] Learning Rate: 0.001 
+[D 190904 21:55:56 intent-classifier:59] Batch Size: 128 
+[D 190904 21:55:56 intent-classifier:60] Epochs: 15 
+[D 190904 21:55:56 intent-classifier:61] Embedding Size 800 
+[D 190904 21:55:56 intent-classifier:62] Trainable Embedding: True
+[I 190904 21:55:58 intent-classifier:105] Loading 'dev' Data
+[I 190904 21:56:00 intent-classifier:133] Loading 'test' Data
+[I 190904 21:56:00 intent-classifier:161] Loading 'train' Data
+[W 190904 21:57:15 intent-classifier:221] utterances: len train: 13784, len test: 700, len dev: 2100
+[W 190904 21:57:15 intent-classifier:222] gold: len train: 13784, len test: 700, len dev: 2100
+[W 190904 21:57:15 intent-classifier:223] len all utterances: 16584
+[W 190904 21:57:15 intent-classifier:224] len all labels: 16584
+[I 190904 21:57:15 intent-classifier:244] Splitting 'train' Data
+[D 190904 21:57:16 intent-classifier:71] vocab_size: 12765
+[I 190904 21:57:17 intent-classifier:83] Compiling model
+[I 190904 21:57:17 intent-classifier:86] Model Summary: None
+[I 190904 21:57:17 intent-classifier:91] Fitting model
+[I 190904 22:05:48 intent-classifier:94] Evaluating model
+[I 190904 22:05:56 intent-classifier:96] Accuracy: 98.191118
+[I 190904 22:05:56 intent-classifier:97] ----End of Programm----
+[I 190904 22:06:23 intent-classifier:56] ----Start of Program----
+[D 190904 22:06:23 intent-classifier:57] Data Set Type: train
+[D 190904 22:06:23 intent-classifier:58] Learning Rate: 0.001 
+[D 190904 22:06:23 intent-classifier:59] Batch Size: 128 
+[D 190904 22:06:23 intent-classifier:60] Epochs: 15 
+[D 190904 22:06:23 intent-classifier:61] Embedding Size 800 
+[D 190904 22:06:23 intent-classifier:62] Trainable Embedding: True
+[I 190904 22:06:25 intent-classifier:105] Loading 'dev' Data
+[I 190904 22:06:26 intent-classifier:133] Loading 'test' Data
+[I 190904 22:06:27 intent-classifier:161] Loading 'train' Data
+[W 190904 22:07:30 intent-classifier:221] utterances: len train: 13784, len test: 700, len dev: 2100
+[W 190904 22:07:30 intent-classifier:222] gold: len train: 13784, len test: 700, len dev: 2100
+[W 190904 22:07:30 intent-classifier:223] len all utterances: 16584
+[W 190904 22:07:30 intent-classifier:224] len all labels: 16584
+[I 190904 22:07:30 intent-classifier:244] Splitting 'train' Data
+[D 190904 22:07:31 intent-classifier:71] vocab_size: 12765
+[I 190904 22:07:31 intent-classifier:83] Compiling model
+[I 190904 22:07:31 intent-classifier:86] Model Summary: None
+[I 190904 22:07:31 intent-classifier:91] Fitting model
+[I 190904 22:15:49 intent-classifier:94] Evaluating model
+[I 190904 22:15:57 intent-classifier:96] Accuracy: 98.172849
+[I 190904 22:15:57 intent-classifier:97] ----End of Programm----

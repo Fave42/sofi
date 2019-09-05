@@ -1,0 +1,92 @@
+[I 190828 13:31:29 slot-classifier:33] ----Start of Program----
+[D 190828 13:31:29 slot-classifier:34] Learning Rate: 0.01 
+[D 190828 13:31:29 slot-classifier:35] Batch Size: 128 
+[D 190828 13:31:29 slot-classifier:36] Epochs: 10 
+[D 190828 13:31:29 slot-classifier:37] Data Set Type: train
+[D 190828 13:31:29 slot-classifier:38] Embedding Size: 800
+[D 190828 13:31:29 slot-classifier:39] Trainable Embedding: True
+[D 190828 13:31:29 slot-classifier:98] Train Utterance: [5095, 3675, 2907, 4922, 5105, 11492, 4003, 10219, 2292, 5105, 6564, 1770]
+[D 190828 13:31:29 slot-classifier:99] Test Utterance: [7263, 10856, 2423, 6731, 9803]
+[D 190828 13:31:29 slot-classifier:100] Train Slots: [38, 38, 38, 38, 20, 20, 20, 20, 20, 20, 20, 24, 38]
+[D 190828 13:31:29 slot-classifier:101] Test Slots: [38, 38, 25, 38, 30, 38]
+[D 190828 13:31:29 slot-classifier:105] Maximum utterance lenght: 35
+[D 190828 13:31:29 slot-classifier:113] Train Utterance: [ 5095  3675  2907  4922  5105 11492  4003 10219  2292  5105  6564  1770
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0]
+[D 190828 13:31:29 slot-classifier:114] Test Utterance: [ 7263 10856  2423  6731  9803     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0     0
+         0     0     0     0     0     0     0     0     0     0     0]
+[D 190828 13:31:29 slot-classifier:115] Train Slots: [38 38 38 38 20 20 20 20 20 20 20 24 38  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0]
+[D 190828 13:31:29 slot-classifier:116] Test Slots: [38 38 25 38 30 38  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0]
+[D 190828 13:31:34 slot-classifier:135] Slots to categorical: [[0. 0. 0. ... 1. 0. 0.]
+     [0. 0. 0. ... 1. 0. 0.]
+     [0. 0. 0. ... 1. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190828 13:34:58 slot-classifier:145] Accuracy: 95.535945
+[I 190828 13:34:58 slot-classifier:146] ----End of Programm----
+[I 190828 13:44:26 slot-classifier:33] ----Start of Program----
+[D 190828 13:44:26 slot-classifier:34] Learning Rate: 0.01 
+[D 190828 13:44:26 slot-classifier:35] Batch Size: 128 
+[D 190828 13:44:26 slot-classifier:36] Epochs: 15 
+[D 190828 13:44:26 slot-classifier:37] Data Set Type: train
+[D 190828 13:44:26 slot-classifier:38] Embedding Size: 800
+[D 190828 13:44:26 slot-classifier:39] Trainable Embedding: True
+[D 190828 13:44:26 slot-classifier:98] Train Utterance: [9593, 3926, 6059, 97, 2448, 7586, 6754, 1222, 6466, 2448, 1257, 8134]
+[D 190828 13:44:26 slot-classifier:99] Test Utterance: [6565, 3975, 7469, 7156, 8181]
+[D 190828 13:44:26 slot-classifier:100] Train Slots: [11, 11, 11, 11, 25, 25, 25, 25, 25, 25, 25, 18, 11]
+[D 190828 13:44:26 slot-classifier:101] Test Slots: [11, 11, 40, 11, 8, 11]
+[D 190828 13:44:26 slot-classifier:105] Maximum utterance lenght: 35
+[D 190828 13:44:27 slot-classifier:113] Train Utterance: [9593 3926 6059   97 2448 7586 6754 1222 6466 2448 1257 8134    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0]
+[D 190828 13:44:27 slot-classifier:114] Test Utterance: [6565 3975 7469 7156 8181    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0    0    0    0    0    0    0    0
+        0    0    0    0    0    0    0]
+[D 190828 13:44:27 slot-classifier:115] Train Slots: [11 11 11 11 25 25 25 25 25 25 25 18 11  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0]
+[D 190828 13:44:27 slot-classifier:116] Test Slots: [11 11 40 11  8 11  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  0  0]
+[D 190828 13:44:33 slot-classifier:135] Slots to categorical: [[0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     ...
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]
+     [1. 0. 0. ... 0. 0. 0.]]
+[I 190828 13:50:20 slot-classifier:145] Accuracy: 95.810725
+[I 190828 13:50:20 slot-classifier:146] ----End of Programm----
+[I 190904 21:45:35 slot-classifier:33] ----Start of Program----
+[D 190904 21:45:35 slot-classifier:34] Learning Rate: 0.01 
+[D 190904 21:45:35 slot-classifier:35] Batch Size: 128 
+[D 190904 21:45:35 slot-classifier:36] Epochs: 15 
+[D 190904 21:45:35 slot-classifier:37] Data Set Type: train
+[D 190904 21:45:35 slot-classifier:38] Embedding Size: 800
+[D 190904 21:45:35 slot-classifier:39] Trainable Embedding: True
+[D 190904 21:45:35 slot-classifier:105] Maximum utterance lenght: 35
+[I 190904 21:55:30 slot-classifier:145] Accuracy: 95.725767
+[I 190904 21:55:30 slot-classifier:146] ----End of Programm----
+[I 190904 21:55:54 slot-classifier:33] ----Start of Program----
+[D 190904 21:55:54 slot-classifier:34] Learning Rate: 0.01 
+[D 190904 21:55:54 slot-classifier:35] Batch Size: 128 
+[D 190904 21:55:54 slot-classifier:36] Epochs: 15 
+[D 190904 21:55:54 slot-classifier:37] Data Set Type: train
+[D 190904 21:55:54 slot-classifier:38] Embedding Size: 800
+[D 190904 21:55:54 slot-classifier:39] Trainable Embedding: True
+[D 190904 21:55:55 slot-classifier:105] Maximum utterance lenght: 35
+[I 190904 22:06:20 slot-classifier:145] Accuracy: 95.759252
+[I 190904 22:06:20 slot-classifier:146] ----End of Programm----
+[I 190904 22:06:40 slot-classifier:33] ----Start of Program----
+[D 190904 22:06:40 slot-classifier:34] Learning Rate: 0.01 
+[D 190904 22:06:40 slot-classifier:35] Batch Size: 128 
+[D 190904 22:06:40 slot-classifier:36] Epochs: 15 
+[D 190904 22:06:40 slot-classifier:37] Data Set Type: train
+[D 190904 22:06:40 slot-classifier:38] Embedding Size: 800
+[D 190904 22:06:40 slot-classifier:39] Trainable Embedding: True
+[D 190904 22:06:40 slot-classifier:105] Maximum utterance lenght: 35
+[I 190904 22:17:24 slot-classifier:145] Accuracy: 95.859483
+[I 190904 22:17:24 slot-classifier:146] ----End of Programm----

@@ -2,6 +2,8 @@
 
 import numpy as np
 import logzero
+from datetime import datetime
+import os
 
 from sklearn.model_selection import train_test_split
 from keras import preprocessing
@@ -10,19 +12,31 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, InputLayer, Bidirectional, TimeDistributed, Embedding, Activation
 from keras.optimizers import Adam
+from keras.callbacks import TensorBoard
+from keras import backend as K
 
-logzero.logfile("Log/intent-logs.log", maxBytes=1e6, backupCount=5)
+logzero.logfile("Log/slots-logs.log", maxBytes=1e6, backupCount=5)
 logzero.loglevel(10)
 logger = logzero.logger
 
-LEARNING_RATE = 0.001
+TensorBoardLog = "Log/tensorboard/slots/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+os.mkdir(TensorBoardLog)
+
+DATA_SET_TYPE = "train"
+
+LEARNING_RATE = 0.01
 BATCH_SIZE = 128
-EPOCHS = 20
+EPOCHS = 15 
+EMBEDDING_SIZE = 800
+TRAINABLE_EMBEDDINGS = True
 
 logger.info("----Start of Program----")
 logger.debug("Learning Rate: %s ", LEARNING_RATE)
 logger.debug("Batch Size: %s ", BATCH_SIZE)
 logger.debug("Epochs: %s ", EPOCHS)
+logger.debug("Data Set Type: %s", DATA_SET_TYPE)
+logger.debug("Embedding Size: %s", EMBEDDING_SIZE)
+logger.debug("Trainable Embedding: %s", TRAINABLE_EMBEDDINGS)
 
 def main ():
     utterances = loadUtterances()
@@ -81,10 +95,10 @@ def main ():
     for utterance in test_slots:
         test_slots_Y.append([slot2index[slot] for slot in utterance])
 
-    logger.debug("Train Utterance: %s", train_utterances_X[0])
-    logger.debug("Test Utterance: %s", test_utterances_X[0])
-    logger.debug("Train Slots: %s", train_slots_Y[0])
-    logger.debug("Test Slots: %s", test_slots_Y[0])
+    # logger.debug("Train Utterance: %s", train_utterances_X[0])
+    # logger.debug("Test Utterance: %s", test_utterances_X[0])
+    # logger.debug("Train Slots: %s", train_slots_Y[0])
+    # logger.debug("Test Slots: %s", test_slots_Y[0])
 
     ## Find max sentence length for padding
     MAX_LENGTH = len(max(train_utterances_X, key=len))
@@ -96,15 +110,15 @@ def main ():
     train_slots_Y = pad_sequences(train_slots_Y, maxlen=MAX_LENGTH, padding='post')
     test_slots_Y = pad_sequences(test_slots_Y, maxlen=MAX_LENGTH, padding='post')
     
-    logger.debug("Train Utterance: %s", train_utterances_X[0])
-    logger.debug("Test Utterance: %s", test_utterances_X[0])
-    logger.debug("Train Slots: %s", train_slots_Y[0])
-    logger.debug("Test Slots: %s", test_slots_Y[0])
+    # logger.debug("Train Utterance: %s", train_utterances_X[0])
+    # logger.debug("Test Utterance: %s", test_utterances_X[0])
+    # logger.debug("Train Slots: %s", train_slots_Y[0])
+    # logger.debug("Test Slots: %s", test_slots_Y[0])
 
     ## Define the model
     model = Sequential()
     model.add(InputLayer(input_shape=(MAX_LENGTH, )))
-    model.add(Embedding(len(word2index), 128, mask_zero=True))
+    model.add(Embedding(len(word2index), EMBEDDING_SIZE, mask_zero=True, trainable=TRAINABLE_EMBEDDINGS))
     model.add(Bidirectional(LSTM(256, return_sequences=True)))
     model.add(TimeDistributed(Dense(len(slot2index))))
     model.add(Activation('softmax'))
@@ -115,20 +129,21 @@ def main ():
     
     model.summary()
 
+    tensorboard_callback = TensorBoard(log_dir=TensorBoardLog, write_graph=True, write_images=True)
+
     cat_train_slots_y = to_categorical(train_slots_Y, len(slot2index))
-    logger.debug("Slots to categorical: %s", cat_train_slots_y[0])
+    # logger.debug("Slots to categorical: %s", cat_train_slots_y[0])
 
     cat_test_slots_y = to_categorical(test_slots_Y, len(slot2index))
 
     ## Train
-    model.fit(train_utterances_X, cat_train_slots_y, batch_size=BATCH_SIZE, epochs=EPOCHS)#, validation_split=0.2)
+    model.fit(train_utterances_X, cat_train_slots_y, batch_size=BATCH_SIZE, epochs=EPOCHS, callbacks=[tensorboard_callback], validation_split=0.2)
 
     ## Validate
     scores = model.evaluate(test_utterances_X, cat_test_slots_y)
     print(f"{model.metrics_names[1]}: {scores[1] * 100}")
     logger.info('Accuracy: %f' % (scores[1]*100))
     logger.info("----End of Programm----")
-
  
 ## One-Hot-Enc for tags
 def to_categorical(sequences, categories):
@@ -142,21 +157,43 @@ def to_categorical(sequences, categories):
     return np.array(cat_sequences)
 
 def loadSlots():
-    with open("TrainingData/Slots/train_slot_label.tsv", 'r') as devLabelFile:
+    if DATA_SET_TYPE == "dev":
+        with open("TrainingData/Slots/dev_slot_label.tsv", 'r') as devLabelFile:
+            slotList = []
+            for line in devLabelFile:
+                line = line.replace("_", "")
+                line = line.replace("\n", "")
+                line = line.split("\t")
+                slotList.append(line)
+    else:
+        Data_Path_List = ["TrainingData/Slots/dev_slot_label.tsv", "TrainingData/Slots/train_slot_label.tsv", "TrainingData/Slots/test_slot_label.tsv"]
         slotList = []
-        for line in devLabelFile:
-            line = line.replace("_", "")
-            line = line.replace("\n", "")
-            line = line.split("\t")
-            slotList.append(line)
+        for path in Data_Path_List:
+            with open(path, 'r') as devLabelFile:
+                    for line in devLabelFile:
+                        line = line.replace("_", "")
+                        line = line.replace("\n", "")
+                        line = line.split("\t")
+                        slotList.append(line)
+    
     return slotList
 
 def loadUtterances():
-    with open("TrainingData/Slots/train_slot_Utt.tsv", 'r') as devUttFile:
+    if DATA_SET_TYPE == "dev":
+        with open("TrainingData/Slots/dev_slot_Utt.tsv", 'r') as devUttFile:
+            utterances = []
+            for utterance in devUttFile:
+                utterancePreProc = preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split='\t')
+                utterances.append(utterancePreProc)
+    else:
+        Data_Path_List = ["TrainingData/Slots/dev_slot_Utt.tsv", "TrainingData/Slots/train_slot_Utt.tsv", "TrainingData/Slots/test_slot_Utt.tsv"]
         utterances = []
-        for utterance in devUttFile:
-            utterancePreProc = preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split='\t')
-            utterances.append(utterancePreProc)
+        for path in Data_Path_List:
+            with open(path, 'r') as devUttFile:
+                for utterance in devUttFile:
+                    utterancePreProc = preprocessing.text.text_to_word_sequence(utterance, filters='?!,.:;\n', lower=False, split='\t')
+                    utterances.append(utterancePreProc)
+    
     return utterances
 
 if __name__ == "__main__":
