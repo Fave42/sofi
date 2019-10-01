@@ -155,6 +155,23 @@ def main ():
     scores = model.evaluate(test_utterances_X, cat_test_slots_y)
     print(f"{model.metrics_names[1]}: {scores[1] * 100}")
     logger.info('Accuracy: %f' % (scores[1]*100))
+
+    # Validate intent and slot
+    x_int, y_int = createIntents(test_utterances_X, cat_test_slots_y)
+    x_utt, y_utt = createUtterances(test_utterances_X, cat_test_slots_y)
+
+    # Intent
+    logger.info("####")
+    scores_int = model.evaluate(x_int, y_int)
+    print(f"{model.metrics_names[1]}: {scores_int[1] * 100}")
+    logger.info('Accuracy of intents: %f' % (scores_int[1]*100))
+
+    # Slots
+    logger.info("####")
+    scores_utt = model.evaluate(x_utt, y_utt)
+    print(f"{model.metrics_names[1]}: {scores_utt[1] * 100}")
+    logger.info('Accuracy of slots: %f' % (scores_utt[1]*100))
+
     logger.info("----End of Programm----")
 
     # test_utterances = [
@@ -263,6 +280,25 @@ def loadUtterances(FRONT):
                     utterances.append(utterancePreProc)
     
     return utterances
+
+
+def createIntents(utterances, labels):
+    x_int = []
+    y_int = []
+    for item in utterances:
+        x_int.append(item[0])
+    for item in labels:
+        y_int.append(item[0])
+    return x_int, y_int
+
+def createUtterances(utterances, labels):
+    x_utt = []
+    y_utt = []
+    for item in utterances:
+        x_utt.append(item[1:0])
+    for item in labels:
+        y_utt.append(item[1:0])
+    return x_utt, y_utt
 
 if __name__ == "__main__":
     main()
