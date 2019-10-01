@@ -386,3 +386,146 @@
 [D 190904 22:49:04 joint-classifier:113] Maximum utterance lenght: 36
 [I 190904 23:14:05 joint-classifier:155] Accuracy: 95.651850
 [I 190904 23:14:05 joint-classifier:156] ----End of Programm----
+[I 190910 11:26:32 joint-classifier:38] ----Start of Program----
+[D 190910 11:26:32 joint-classifier:39] Data Set Type: train
+[D 190910 11:26:32 joint-classifier:40] Learning Rate: 0.001 
+[D 190910 11:26:32 joint-classifier:41] Batch Size: 64 
+[D 190910 11:26:32 joint-classifier:42] Epochs: 25 
+[D 190910 11:26:32 joint-classifier:43] Embedding Size: 800
+[D 190910 11:26:32 joint-classifier:44] Trainable Embedding: True
+[D 190910 11:26:32 joint-classifier:45] Dropout Rate: 0.5 
+[D 190910 11:26:32 joint-classifier:46] Activation LSTM: tanh
+[D 190910 11:26:32 joint-classifier:47] LSTM UNITS: 512
+[D 190910 11:26:32 joint-classifier:252] Intents Front
+[D 190910 11:26:33 joint-classifier:224] Intents Front
+[D 190910 11:26:33 joint-classifier:113] Maximum utterance lenght: 36
+[I 190910 11:46:35 joint-classifier:156] Accuracy: 97.916032
+[I 190910 11:46:35 joint-classifier:157] ----End of Programm----
+[I 190910 11:55:22 joint-classifier:39] ----Start of Program----
+[D 190910 11:55:22 joint-classifier:40] Data Set Type: train
+[D 190910 11:55:22 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 11:55:22 joint-classifier:42] Batch Size: 64 
+[D 190910 11:55:22 joint-classifier:43] Epochs: 25 
+[D 190910 11:55:22 joint-classifier:44] Embedding Size: 800
+[D 190910 11:55:22 joint-classifier:45] Trainable Embedding: True
+[D 190910 11:55:22 joint-classifier:46] Dropout Rate: 0.5 
+[D 190910 11:55:22 joint-classifier:47] Activation LSTM: tanh
+[D 190910 11:55:22 joint-classifier:48] LSTM UNITS: 512
+[D 190910 11:55:22 joint-classifier:49] OPtimizer: Adagrad
+[D 190910 11:55:22 joint-classifier:253] Intents Front
+[D 190910 11:55:23 joint-classifier:225] Intents Front
+[D 190910 11:55:23 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 12:15:36 joint-classifier:157] Accuracy: 89.527469
+[I 190910 12:15:36 joint-classifier:158] ----End of Programm----
+[I 190910 12:58:49 joint-classifier:39] ----Start of Program----
+[D 190910 12:58:49 joint-classifier:40] Data Set Type: train
+[D 190910 12:58:49 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 12:58:49 joint-classifier:42] Batch Size: 64 
+[D 190910 12:58:49 joint-classifier:43] Epochs: 25 
+[D 190910 12:58:49 joint-classifier:44] Embedding Size: 800
+[D 190910 12:58:49 joint-classifier:45] Trainable Embedding: True
+[D 190910 12:58:49 joint-classifier:46] Dropout Rate: 0.5 
+[D 190910 12:58:49 joint-classifier:47] Activation LSTM: tanh
+[D 190910 12:58:49 joint-classifier:48] LSTM UNITS: 512
+[D 190910 12:58:49 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 12:58:49 joint-classifier:253] Intents Front
+[D 190910 12:58:49 joint-classifier:225] Intents Front
+[D 190910 12:58:50 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 13:18:33 joint-classifier:157] Accuracy: 96.022419
+[I 190910 13:18:33 joint-classifier:158] ----End of Programm----
+[I 190910 13:20:18 joint-classifier:39] ----Start of Program----
+[D 190910 13:20:18 joint-classifier:40] Data Set Type: train
+[D 190910 13:20:18 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 13:20:18 joint-classifier:42] Batch Size: 64 
+[D 190910 13:20:18 joint-classifier:43] Epochs: 25 
+[D 190910 13:20:18 joint-classifier:44] Embedding Size: 800
+[D 190910 13:20:18 joint-classifier:45] Trainable Embedding: True
+[D 190910 13:20:18 joint-classifier:46] Dropout Rate: 0.5 
+[D 190910 13:20:18 joint-classifier:47] Activation LSTM: tanh
+[D 190910 13:20:18 joint-classifier:48] LSTM UNITS: 512
+[D 190910 13:20:18 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 13:20:18 joint-classifier:253] Intents Front
+[D 190910 13:20:18 joint-classifier:225] Intents Front
+[D 190910 13:20:18 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 13:40:38 joint-classifier:157] Accuracy: 96.006789
+[I 190910 13:40:38 joint-classifier:158] ----End of Programm----
+[I 190910 13:40:57 joint-classifier:39] ----Start of Program----
+[D 190910 13:40:57 joint-classifier:40] Data Set Type: train
+[D 190910 13:40:57 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 13:40:57 joint-classifier:42] Batch Size: 64 
+[D 190910 13:40:57 joint-classifier:43] Epochs: 25 
+[D 190910 13:40:57 joint-classifier:44] Embedding Size: 800
+[D 190910 13:40:57 joint-classifier:45] Trainable Embedding: True
+[D 190910 13:40:57 joint-classifier:46] Dropout Rate: 0.5 
+[D 190910 13:40:57 joint-classifier:47] Activation LSTM: tanh
+[D 190910 13:40:57 joint-classifier:48] LSTM UNITS: 512
+[D 190910 13:40:57 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 13:40:57 joint-classifier:253] Intents Front
+[D 190910 13:40:57 joint-classifier:225] Intents Front
+[D 190910 13:40:57 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 14:00:35 joint-classifier:157] Accuracy: 96.048275
+[I 190910 14:00:35 joint-classifier:158] ----End of Programm----
+[I 190910 14:10:08 joint-classifier:39] ----Start of Program----
+[D 190910 14:10:08 joint-classifier:40] Data Set Type: train
+[D 190910 14:10:08 joint-classifier:41] Learning Rate: 0.01 
+[D 190910 14:10:08 joint-classifier:42] Batch Size: 64 
+[D 190910 14:10:08 joint-classifier:43] Epochs: 25 
+[D 190910 14:10:08 joint-classifier:44] Embedding Size: 800
+[D 190910 14:10:08 joint-classifier:45] Trainable Embedding: True
+[D 190910 14:10:08 joint-classifier:46] Dropout Rate: 0.5 
+[D 190910 14:10:08 joint-classifier:47] Activation LSTM: tanh
+[D 190910 14:10:08 joint-classifier:48] LSTM UNITS: 512
+[D 190910 14:10:08 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 14:10:08 joint-classifier:253] Intents Front
+[D 190910 14:10:08 joint-classifier:225] Intents Front
+[D 190910 14:10:08 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 14:30:00 joint-classifier:157] Accuracy: 95.325498
+[I 190910 14:30:00 joint-classifier:158] ----End of Programm----
+[I 190910 14:35:19 joint-classifier:39] ----Start of Program----
+[D 190910 14:35:19 joint-classifier:40] Data Set Type: train
+[D 190910 14:35:19 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 14:35:19 joint-classifier:42] Batch Size: 64 
+[D 190910 14:35:19 joint-classifier:43] Epochs: 25 
+[D 190910 14:35:19 joint-classifier:44] Embedding Size: 800
+[D 190910 14:35:19 joint-classifier:45] Trainable Embedding: True
+[D 190910 14:35:19 joint-classifier:46] Dropout Rate: 0.4 
+[D 190910 14:35:19 joint-classifier:47] Activation LSTM: tanh
+[D 190910 14:35:19 joint-classifier:48] LSTM UNITS: 512
+[D 190910 14:35:19 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 14:35:19 joint-classifier:253] Intents Front
+[D 190910 14:35:19 joint-classifier:225] Intents Front
+[D 190910 14:35:19 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 14:55:23 joint-classifier:157] Accuracy: 96.028711
+[I 190910 14:55:23 joint-classifier:158] ----End of Programm----
+[I 190910 14:57:44 joint-classifier:39] ----Start of Program----
+[D 190910 14:57:44 joint-classifier:40] Data Set Type: train
+[D 190910 14:57:44 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 14:57:44 joint-classifier:42] Batch Size: 32 
+[D 190910 14:57:44 joint-classifier:43] Epochs: 25 
+[D 190910 14:57:44 joint-classifier:44] Embedding Size: 800
+[D 190910 14:57:44 joint-classifier:45] Trainable Embedding: True
+[D 190910 14:57:44 joint-classifier:46] Dropout Rate: 0.4 
+[D 190910 14:57:44 joint-classifier:47] Activation LSTM: tanh
+[D 190910 14:57:44 joint-classifier:48] LSTM UNITS: 512
+[D 190910 14:57:44 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 14:57:44 joint-classifier:253] Intents Front
+[D 190910 14:57:45 joint-classifier:225] Intents Front
+[D 190910 14:57:45 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 15:26:54 joint-classifier:157] Accuracy: 95.969312
+[I 190910 15:26:54 joint-classifier:158] ----End of Programm----
+[I 190910 15:42:30 joint-classifier:39] ----Start of Program----
+[D 190910 15:42:30 joint-classifier:40] Data Set Type: train
+[D 190910 15:42:30 joint-classifier:41] Learning Rate: 0.001 
+[D 190910 15:42:30 joint-classifier:42] Batch Size: 64 
+[D 190910 15:42:30 joint-classifier:43] Epochs: 35 
+[D 190910 15:42:30 joint-classifier:44] Embedding Size: 800
+[D 190910 15:42:30 joint-classifier:45] Trainable Embedding: True
+[D 190910 15:42:30 joint-classifier:46] Dropout Rate: 0.4 
+[D 190910 15:42:30 joint-classifier:47] Activation LSTM: tanh
+[D 190910 15:42:30 joint-classifier:48] LSTM UNITS: 512
+[D 190910 15:42:30 joint-classifier:49] OPtimizer: RMSprop
+[D 190910 15:42:30 joint-classifier:253] Intents Front
+[D 190910 15:42:30 joint-classifier:225] Intents Front
+[D 190910 15:42:30 joint-classifier:115] Maximum utterance lenght: 36
+[I 190910 16:10:08 joint-classifier:157] Accuracy: 95.629717
+[I 190910 16:10:08 joint-classifier:158] ----End of Programm----

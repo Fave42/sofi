@@ -36,7 +36,7 @@ intent_dict = {"BookRestaurant":1,
 "SearchCreativeWork":7
 }
 
-# for utterance ending and beginning (intent)
+# for utterance beginning (intent)
 joint_intent_dict = {"BookRestaurant":"BookRestaurant",
 "SearchScreeningEvent":"SearchScreeningEvent",
 "RateBook":"RateBook",

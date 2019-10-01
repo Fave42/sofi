@@ -12,7 +12,7 @@ from keras.preprocessing.sequence import pad_sequences
 
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, InputLayer, Bidirectional, TimeDistributed, Embedding, Activation, Dropout
-from keras.optimizers import Adam
+from keras.optimizers import Adam, Adagrad, RMSprop
 from keras.callbacks import TensorBoard
 from keras import backend as K
 
@@ -22,13 +22,14 @@ logger = logzero.logger
 
 LEARNING_RATE = 0.001
 BATCH_SIZE = 64
-EPOCHS = 25
+EPOCHS = 35
 TRAINABLE_EMBEDDINGS = True
 EMBEDDING_SIZE = 800
 FRONT = True
-DROPOUT_RATE = 0.5
+DROPOUT_RATE = 0.4
 LSTM_Activation = 'tanh'
 UNITS = 256 * 2  # Up to the usage of this variable UNITS = 256
+OPTIMIZER = "RMSprop"
 
 DATA_SET_TYPE = "train"
 
@@ -45,6 +46,7 @@ logger.debug("Trainable Embedding: %s", TRAINABLE_EMBEDDINGS)
 logger.debug("Dropout Rate: %s ", DROPOUT_RATE)
 logger.debug("Activation LSTM: %s", LSTM_Activation)
 logger.debug("LSTM UNITS: %s", UNITS)
+logger.debug("OPtimizer: %s", OPTIMIZER)
 
 def main ():
     utterances = loadUtterances(FRONT)
@@ -134,7 +136,7 @@ def main ():
     model.add(Activation('softmax'))
     
     model.compile(loss='categorical_crossentropy',
-                optimizer=Adam(LEARNING_RATE),
+                optimizer=RMSprop(LEARNING_RATE),
                 metrics=['accuracy'])
     
     model.summary()
